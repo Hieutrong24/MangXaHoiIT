@@ -1,0 +1,15 @@
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\obj\Debug\net9.0\CodeJudge.Application.csproj.AssemblyReference.cache
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\obj\Debug\net9.0\CodeJudge.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\obj\Debug\net9.0\CodeJudge.Application.AssemblyInfoInputs.cache
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\obj\Debug\net9.0\CodeJudge.Application.AssemblyInfo.cs
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\obj\Debug\net9.0\CodeJudge.Application.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\bin\Debug\net9.0\CodeJudge.Application.deps.json
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\bin\Debug\net9.0\CodeJudge.Application.dll
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\bin\Debug\net9.0\CodeJudge.Application.pdb
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\bin\Debug\net9.0\CodeJudge.Domain.dll
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\bin\Debug\net9.0\CodeJudge.Domain.pdb
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\obj\Debug\net9.0\CodeJudg.C15D1C62.Up2Date
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\obj\Debug\net9.0\CodeJudge.Application.dll
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\obj\Debug\net9.0\refint\CodeJudge.Application.dll
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\obj\Debug\net9.0\CodeJudge.Application.pdb
+D:\WorkSpace\Document Web\it-social-platform\services\code-judge-service\src\CodeJudge.Application\obj\Debug\net9.0\ref\CodeJudge.Application.dll

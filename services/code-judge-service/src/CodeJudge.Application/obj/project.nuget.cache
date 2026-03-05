@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "L8N3Bg5Dx2E=",
+  "success": true,
+  "projectFilePath": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\CodeJudge.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trong\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\trong\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
