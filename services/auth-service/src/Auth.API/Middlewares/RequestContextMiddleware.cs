@@ -24,7 +24,7 @@ namespace Auth.API.Middlewares
 
         private static string GetClientIp(HttpContext context)
         {
-            // Ưu tiên X-Forwarded-For nếu chạy sau reverse proxy
+            
             var xff = context.Request.Headers["X-Forwarded-For"].ToString();
             if (!string.IsNullOrWhiteSpace(xff))
             {
@@ -36,7 +36,7 @@ namespace Auth.API.Middlewares
             var ip = context.Connection.RemoteIpAddress;
             if (ip is null) return "unknown";
 
-            // Normalize IPv6 loopback
+          
             if (IPAddress.IsLoopback(ip)) return "127.0.0.1";
 
             return ip.ToString();

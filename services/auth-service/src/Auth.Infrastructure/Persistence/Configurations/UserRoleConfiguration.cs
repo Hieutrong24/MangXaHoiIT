@@ -17,7 +17,7 @@ namespace auth_service.src.Auth.Infrastructure.Persistence.Configurations
                 .HasDefaultValueSql("SYSUTCDATETIME()")
                 .IsRequired();
 
-            builder.HasIndex(x => new { x.RoleId, x.UserId }); // IX_Auth_UserRoles_RoleId_UserId
+            builder.HasIndex(x => new { x.RoleId, x.UserId }); 
         }
     }
 }

@@ -15,7 +15,7 @@ namespace auth_service.src.Auth.Infrastructure
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration config)
         {
-            // Connection string
+           
             var cs =
                 config.GetConnectionString("AuthDb")
                 ?? config.GetConnectionString("DefaultConnection")
@@ -24,19 +24,19 @@ namespace auth_service.src.Auth.Infrastructure
             services.AddDbContext<AuthDbContext>(opt =>
                 opt.UseSqlServer(cs));
 
-            // Jwt settings
+         
             services.Configure<JwtSettings>(config.GetSection("Jwt"));
 
-            // Repositories
+           
             services.AddScoped<IAuthAccountRepository, AuthAccountRepository>();
             services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
             services.AddScoped<ILoginAuditRepository, LoginAuditRepository>();
 
-            // Services
+           
             services.AddScoped<ITokenService, JwtTokenGenerator>();
             services.AddScoped<IPasswordHasher, PasswordHasher>();
 
-            // Outbox
+            
             services.AddScoped<IOutboxService, OutboxService>();
             services.AddHostedService<OutboxEventPublisher>();
 

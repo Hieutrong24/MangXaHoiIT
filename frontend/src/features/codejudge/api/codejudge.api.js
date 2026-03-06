@@ -6,7 +6,6 @@ function unwrap(res) {
 }
 
 export const codejudgeApi = {
-  /* ================= PROBLEMS ================= */
 
   async listProblems(params = {}) {
     const res = await http.get("/code/problems", { params });
@@ -18,14 +17,12 @@ export const codejudgeApi = {
     return unwrap(res);
   },
 
-  /* ================= LANGUAGES ================= */
 
   async listLanguages() {
     const res = await http.get("/code/languages");
     return unwrap(res);
   },
 
-  /* ================= SUBMISSIONS (JUDGE REAL) ================= */
 
   async submit(payload) {
     const res = await http.post("/code/submissions", payload);

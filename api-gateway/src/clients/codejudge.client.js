@@ -13,7 +13,7 @@ function enc(x) {
 }
 
 const codejudgeClient = {
-  /* ================= LANGUAGES ================= */
+
 
   async listLanguages(ctx) {
     // GET /languages
@@ -21,7 +21,7 @@ const codejudgeClient = {
     return res.data;
   },
 
-  /* ================= PROBLEMS ================= */
+
 
   async listProblems(query = {}, ctx) {
     const res = await http.get("/problems", { params: query, __ctx: ctx });
@@ -33,7 +33,7 @@ const codejudgeClient = {
     return res.data;
   },
 
-  /* ================= SUBMISSIONS ================= */
+
 
   async createSubmission(body, ctx) {
     const res = await http.post("/submissions", body, { __ctx: ctx });

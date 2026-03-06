@@ -19,7 +19,6 @@ function pickExcerpt(p) {
 }
 
 function buildPayload(posts = []) {
-  // ✅ Giảm token: chỉ gửi title + tag + excerpt ngắn
   const recentPosts = (posts || []).slice(0, 5).map((p) => ({
     title: pickTitle(p),
     tag: p?.tag || "general",
@@ -32,7 +31,7 @@ function buildPayload(posts = []) {
 }
 
 function hashKey(payload) {
-  // cache key đơn giản
+  
   try {
     return JSON.stringify({
       t: payload.recentTags,
@@ -48,10 +47,8 @@ export default function RightSidebar({ posts = [] }) {
   const [aiText, setAiText] = useState("");
   const [aiErr, setAiErr] = useState("");
 
-  // ✅ cooldown để chống spam/quota
   const [cooldownUntil, setCooldownUntil] = useState(0);
 
-  // ✅ cache local trong FE (không thay thế cache BE nhưng giúp đỡ spam)
   const [localCache, setLocalCache] = useState(() => new Map());
 
   const canAskAI = !aiLoading && Date.now() > cooldownUntil;
@@ -64,7 +61,6 @@ export default function RightSidebar({ posts = [] }) {
 
     setAiErr("");
 
-    // ✅ nếu đã có cache local -> dùng luôn (không call API)
     const hit = localCache.get(cacheKey);
     if (hit && hit.exp > Date.now()) {
       setAiText(hit.text);
@@ -76,7 +72,6 @@ export default function RightSidebar({ posts = [] }) {
     try {
       const data = await aiApi.getSuggestion(payload);
 
-      // server có thể trả: {success:true, suggestion} hoặc {success:true, data:{suggestion}}
       const suggestion =
         data?.suggestion ||
         data?.data?.suggestion ||
@@ -89,19 +84,16 @@ export default function RightSidebar({ posts = [] }) {
 
       setAiText(text);
 
-      // ✅ cache local 2 phút
       setLocalCache((m) => {
         const next = new Map(m);
         next.set(cacheKey, { text, exp: Date.now() + 120_000 });
         return next;
       });
 
-      // ✅ thành công: cooldown 20s
       setCooldownUntil(Date.now() + 20_000);
     } catch (e) {
       console.error(e);
 
-      // ✅ lỗi/quota: message rõ ràng + cooldown dài
       const msg = String(e?.response?.data?.message || e?.message || "");
       if (msg.includes("429") || msg.toLowerCase().includes("quota")) {
         setAiErr("AI đang quá tải/quota. Thử lại sau 1–2 phút nhé.");
@@ -231,8 +223,6 @@ export default function RightSidebar({ posts = [] }) {
           <Button
             className="flex-1"
             onClick={() => {
-              // Demo action
-              // Bạn có thể lưu gợi ý vào Notes / Saved
             }}
             disabled={!aiText || aiLoading}
           >

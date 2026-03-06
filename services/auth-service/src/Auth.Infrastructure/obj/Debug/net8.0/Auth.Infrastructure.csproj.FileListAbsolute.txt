@@ -36,3 +36,4 @@ D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Infr
 D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Infrastructure\obj\Debug\net8.0\Auth.Infrastructure.pdb
 D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Infrastructure\obj\Debug\net8.0\Auth.Infrastructure.genruntimeconfig.cache
 D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Infrastructure\obj\Debug\net8.0\ref\Auth.Infrastructure.dll
+D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Infrastructure\obj\Debug\net8.0\Auth.Infrastructure.sourcelink.json

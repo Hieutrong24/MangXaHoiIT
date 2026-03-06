@@ -26,7 +26,7 @@ namespace auth_service.src.Auth.Domain.ValueObjects
 
             var algo = NormalizeAlgo(algorithm);
 
-            // DB cột VARBINARY(256) nên <= 256 bytes
+            
             if (hash.Length > 256)
                 throw new ArgumentException("Password hash is too long for VARBINARY(256).", nameof(hash));
 
@@ -52,7 +52,7 @@ namespace auth_service.src.Auth.Domain.ValueObjects
 
         public override int GetHashCode()
         {
-            // hashcode đơn giản (không tốn CPU)
+            
             unchecked
             {
                 int hc = StringComparer.Ordinal.GetHashCode(Algorithm);

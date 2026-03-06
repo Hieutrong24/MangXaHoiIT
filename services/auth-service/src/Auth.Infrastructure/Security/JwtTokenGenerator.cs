@@ -46,7 +46,7 @@ namespace auth_service.src.Auth.Infrastructure.Security
 
         public string GenerateRawRefreshToken()
         {
-            // 32 bytes random -> base64url string
+           
             Span<byte> bytes = stackalloc byte[32];
             RandomNumberGenerator.Fill(bytes);
 
@@ -55,7 +55,6 @@ namespace auth_service.src.Auth.Infrastructure.Security
 
         public byte[] HashRefreshToken(string rawRefreshToken)
         {
-            // SHA-256 -> 32 bytes => khớp BINARY(32)
             return SHA256.HashData(Encoding.UTF8.GetBytes(rawRefreshToken));
         }
     }

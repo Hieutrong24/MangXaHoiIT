@@ -45,7 +45,6 @@ async function main() {
     console.log(`[chat-service] env: ${NODE_ENV}`);
   });
 
-  // ---- graceful shutdown (Windows-friendly) ----
   let shuttingDown = false;
 
   const shutdown = async (reason) => {
@@ -53,13 +52,10 @@ async function main() {
     shuttingDown = true;
 
     console.log(`[chat-service] shutdown requested by: ${reason}`);
-
-    // close socket first
     try {
       io.close();
     } catch {}
 
-    // close http
     await new Promise((resolve) => {
       server.close(() => {
         console.log("[chat-service] http closed");
@@ -67,19 +63,15 @@ async function main() {
       });
     });
 
-    // disconnect mongo
+
     await disconnectMongo();
     console.log("[chat-service] mongo disconnected");
 
-    // don't force exit in dev (but OK in prod)
     if (isProd) process.exit(0);
   };
 
-  // Windows: CTRL+C => SIGINT, CTRL+BREAK => SIGBREAK
   process.on("SIGINT", () => shutdown("SIGINT"));
   process.on("SIGBREAK", () => shutdown("SIGBREAK"));
-
-  // SIGTERM: nhiều môi trường dev gửi nhầm => ignore ở dev, chỉ shutdown ở prod
   if (isProd) {
     process.on("SIGTERM", () => shutdown("SIGTERM"));
   } else {
@@ -96,7 +88,6 @@ async function main() {
     console.error("[chat-service] unhandledRejection:", e);
   });
 
-  // giữ stdin để tránh terminal “auto detach” trong vài môi trường
   process.stdin.resume();
 }
 

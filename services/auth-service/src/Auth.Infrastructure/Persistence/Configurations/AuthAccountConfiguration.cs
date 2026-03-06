@@ -12,7 +12,7 @@ namespace auth_service.src.Auth.Infrastructure.Persistence.Configurations
             builder.ToTable("Auth_Accounts", "dbo");
             builder.HasKey(x => x.UserId);
 
-            // Owned: Email.Value -> Email (NVARCHAR(256))
+            
             builder.OwnsOne(x => x.Email, email =>
             {
                 email.Property(e => e.Value)
@@ -21,11 +21,11 @@ namespace auth_service.src.Auth.Infrastructure.Persistence.Configurations
                     .IsUnicode()
                     .IsRequired();
 
-                // EF owned cần set navigation required
+           
                 email.WithOwner();
             });
 
-            // Owned: Password.Hash -> PasswordHash (VARBINARY(256)), Password.Algorithm -> PasswordAlgo (NVARCHAR(50))
+           
             builder.OwnsOne(x => x.Password, pw =>
             {
                 pw.Property(p => p.Hash)

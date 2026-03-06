@@ -10,10 +10,8 @@ public static class VerdictCalculator
         return SubmissionStatus.RE;
     }
 
-    // map per-test status in Judge_SubmissionTestResults
     public static byte ToTestResultStatus(string verdict)
     {
-        // 1=pass,2=fail,3=TLE,4=MLE,5=RE,6=SKIP
         verdict = (verdict ?? "").ToUpperInvariant();
         return verdict switch
         {

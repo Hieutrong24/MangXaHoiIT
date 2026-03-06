@@ -39,10 +39,6 @@ function uniq(arr) {
   return Array.from(new Set(arr));
 }
 
-/**
- * ITNewsPanel
- * - Gợi ý dùng trong sidebar của PostEditor: rightPanel={<ITNewsPanel />}
- */
 export default function ITNewsPanel({
   className,
   limit = 10,
@@ -50,16 +46,15 @@ export default function ITNewsPanel({
   redditSubs = ["programming", "webdev", "netsec", "devops"],
   nvdDays = 7,
 }) {
-  const [source, setSource] = useState(defaultSource); // hn | devto | reddit | cve
+  const [source, setSource] = useState(defaultSource); 
   const [subreddit, setSubreddit] = useState(redditSubs[0] || "programming");
 
-  const [items, setItems] = useState([]); // normalized
+  const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState("");
 
-  // cache theo key
-  const cacheRef = useRef(new Map()); // key -> { ts, data }
-  const TTL_MS = 2 * 60 * 1000; // 2 phút
+  const cacheRef = useRef(new Map()); 
+  const TTL_MS = 2 * 60 * 1000
 
   const key = useMemo(() => {
     if (source === "reddit") return `reddit:${subreddit}:${limit}`;
@@ -73,8 +68,7 @@ export default function ITNewsPanel({
       { id: "devto", label: "Dev.to", icon: Newspaper },
       { id: "reddit", label: "Reddit", icon: ExternalLink },
       { id: "cve", label: "CVE (NVD)", icon: ShieldAlert },
-      // { id: "newsapi", label: "NewsAPI", icon: Newspaper }, // ⚠️ nên proxy backend
-      // { id: "ghtrend", label: "GitHub Trending", icon: Github }, // ⚠️ nên proxy backend
+ 
     ],
     []
   );
@@ -134,7 +128,6 @@ export default function ITNewsPanel({
   }
 
   async function fetchReddit() {
-    // dùng JSON public (không cần OAuth)
     const url = `https://www.reddit.com/r/${encodeURIComponent(subreddit)}/hot.json?limit=${Math.min(
       limit,
       25
@@ -142,7 +135,6 @@ export default function ITNewsPanel({
 
     const r = await fetch(url, {
       headers: {
-        // Reddit khuyến nghị user-agent “có ý nghĩa”
         "User-Agent": "sockioIT/1.0 (web)",
       },
     });
@@ -169,8 +161,6 @@ export default function ITNewsPanel({
   }
 
   async function fetchCVE() {
-    // NVD CVE 2.0
-    // Lọc “nvdDays” ngày gần nhất bằng pubStartDate/pubEndDate.
     const end = new Date();
     const start = new Date(Date.now() - nvdDays * 24 * 60 * 60 * 1000);
 
@@ -179,8 +169,6 @@ export default function ITNewsPanel({
       resultsPerPage: String(Math.min(limit, 20)),
       pubStartDate: fmt(start),
       pubEndDate: fmt(end),
-      // bạn có thể thêm keywordSearch nếu muốn
-      // keywordSearch: "linux",
     });
 
     const r = await fetch(`https://services.nvd.nist.gov/rest/json/cves/2.0?${params.toString()}`);
@@ -242,7 +230,6 @@ export default function ITNewsPanel({
 
   useEffect(() => {
     load(false);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key]);
 
   return (

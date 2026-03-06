@@ -50,12 +50,7 @@ async function findMessageById(messageId) {
   return MessageModel.findById(messageId).lean();
 }
 
-/**
- * Cursor pagination:
- * - limit: số lượng
- * - beforeId: lấy các message "cũ hơn" messageId này (theo _id)
- * Return: { items, nextCursor }
- */
+
 async function listMessagesByChat(chatId, { limit = 30, beforeId = null } = {}) {
   const q = { chatId };
   if (beforeId && mongoose.isValidObjectId(beforeId)) {

@@ -22,8 +22,6 @@ const authClient = {
     return res.data;
   },
   async ping(ctx) {
-    // Auth-service của bạn có swagger, thường sẽ có /health nếu bạn tự thêm
-    // Nếu CHƯA có /health thì bạn có thể ping swagger:
     const res = await http.get("/swagger/index.html", { __ctx: ctx });
     return { ok: true, status: res.status };
   },

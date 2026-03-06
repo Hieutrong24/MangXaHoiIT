@@ -35,8 +35,7 @@ public sealed class UserProblemStatRepository : IUserProblemStatRepository
         stat.LastSubmittedAt = submittedAt;
 
         // Update best:
-        // If new is AC and old not AC -> replace
-        // If both AC -> keep better time (smaller) then memory
+   
         if (submissionStatus == 3)
         {
             if (stat.FirstAcceptedAt is null) stat.FirstAcceptedAt = submittedAt;

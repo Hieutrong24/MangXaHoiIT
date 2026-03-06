@@ -20,3 +20,4 @@ D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Doma
 D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Domain\obj\Debug\net8.0\refint\Auth.Domain.dll
 D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Domain\obj\Debug\net8.0\Auth.Domain.pdb
 D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Domain\obj\Debug\net8.0\ref\Auth.Domain.dll
+D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Domain\obj\Debug\net8.0\Auth.Domain.sourcelink.json

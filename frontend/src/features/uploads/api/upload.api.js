@@ -9,6 +9,6 @@ export const uploadApi = {
     const res = await http.post("/uploads/cloudinary", form, {
       headers: { "Content-Type": "multipart/form-data" },
     });
-    return res.data?.data ?? res.data; // { url, ... }
+    return res.data?.data ?? res.data;  
   },
 };

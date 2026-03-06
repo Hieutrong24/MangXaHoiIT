@@ -28,3 +28,4 @@ D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Appl
 D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Application\obj\Debug\net8.0\refint\Auth.Application.dll
 D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Application\obj\Debug\net8.0\Auth.Application.pdb
 D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Application\obj\Debug\net8.0\ref\Auth.Application.dll
+D:\WorkSpace\Document Web\it-social-platform\services\auth-service\src\Auth.Application\obj\Debug\net8.0\Auth.Application.sourcelink.json

@@ -1,16 +1,7 @@
 // src/clients/judge0.client.js
 const axios = require("axios");
 
-/**
- * Judge0 via RapidAPI
- * Env required:
- *  - JUDGE0_BASE_URL=https://judge0-ce.p.rapidapi.com
- *  - JUDGE0_RAPIDAPI_KEY=xxxxx
- *  - JUDGE0_RAPIDAPI_HOST=judge0-ce.p.rapidapi.com (optional if can derive from base url)
- *
- * Optional:
- *  - JUDGE0_TIMEOUT_MS=12000
- */
+
 
 function requireEnv(name) {
   const v = process.env[name];
@@ -29,8 +20,6 @@ const RAPIDAPI_HOST =
   "judge0-ce.p.rapidapi.com";
 
 if (!RAPIDAPI_KEY) {
-  // không throw ngay để dev dễ chạy unit test; nhưng khi gọi sẽ throw
-  // bạn có thể đổi thành throw ở đây nếu muốn strict
 }
 
 const http = axios.create({
@@ -42,7 +31,6 @@ const http = axios.create({
 });
 
 http.interceptors.request.use((config) => {
-  // Attach RapidAPI headers
   const key = RAPIDAPI_KEY || requireEnv("JUDGE0_RAPIDAPI_KEY");
   config.headers["X-RapidAPI-Key"] = key;
   config.headers["X-RapidAPI-Host"] = RAPIDAPI_HOST;
@@ -50,8 +38,6 @@ http.interceptors.request.use((config) => {
 });
 
 function normalizeAxiosError(err) {
-  // axios error shape:
-  // err.response?.status, err.response?.data
   const status = err?.response?.status;
   const data = err?.response?.data;
   const message = data?.message || err?.message || "Request failed";
@@ -145,8 +131,7 @@ async function pollSubmission(token, opts = {}) {
   const timeoutMs = Number(opts.timeoutMs || 15000);
   const start = Date.now();
 
-  // Judge0 status ids: 1 In Queue, 2 Processing, 3 Accepted, etc.
-  // Khi "Done" thường status.id >= 3
+
   while (true) {
     const data = await getSubmission(token, {
       base64_encoded: false,

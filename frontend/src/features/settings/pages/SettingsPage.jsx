@@ -10,7 +10,7 @@ export default function SettingsPage() {
       <GlassCard className="p-6">
         <div className="text-xl font-extrabold tracking-tight">Cài đặt</div>
         <div className="mt-2 text-sm text-slate-300">
-          Dark theme đã bật mặc định. Sau này có thể thêm lựa chọn theme & font size.
+          Dark theme  (đang phát triển)
         </div>
 
         <div className="mt-6 flex justify-end">

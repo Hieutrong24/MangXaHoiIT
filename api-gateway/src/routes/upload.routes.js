@@ -4,10 +4,10 @@ const multer = require("multer");
 
 const upload = multer({
   storage: multer.memoryStorage(),
-  limits: { fileSize: 30 * 1024 * 1024 }, // 30MB
+  limits: { fileSize: 30 * 1024 * 1024 }, 
 });
 
-// demo: tạm trả OK để xác nhận route hoạt động
+
 router.post("/cloudinary", upload.single("file"), async (req, res) => {
   return res.json({
     success: true,

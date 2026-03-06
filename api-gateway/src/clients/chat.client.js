@@ -11,13 +11,12 @@ const http = createHttpClient({
 function withCtx(config = {}, ctx) {
   const headers = { ...(config.headers || {}) };
 
-  // ưu tiên auth header từ ctx (middleware đã set)
+
   if (ctx?.authHeader) headers["Authorization"] = ctx.authHeader;
 
-  // ưu tiên userId đã decode từ token
+
   if (ctx?.xUserId) headers["X-User-Id"] = String(ctx.xUserId);
 
-  // để interceptor đọc ctx
   return { ...config, headers, __ctx: ctx };
 }
 

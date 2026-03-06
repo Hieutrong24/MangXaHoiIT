@@ -26,7 +26,7 @@ namespace auth_service.src.Auth.Infrastructure.Persistence.Configurations
                 .HasMaxLength(200)
                 .IsUnicode();
 
-            builder.HasIndex(x => x.Name).IsUnique(); // UX_Auth_Roles_Name
+            builder.HasIndex(x => x.Name).IsUnique();
         }
     }
 }

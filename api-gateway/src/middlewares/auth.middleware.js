@@ -2,17 +2,7 @@
 const jwt = require("jsonwebtoken");
 const { env } = require("../config/env");
 
-/**
- * Verify JWT at Gateway.
- * - attaches req.user = { id, roles, email }
- * - forwards authorization header to upstream (req.authHeader)
- *
- * NOTE:
- * Token của bạn (đã gửi trước) có:
- *  - iss: "auth-service"
- *  - aud: "it-social-platform"
- * -> env.JWT_ISSUER và env.JWT_AUDIENCE phải khớp
- */
+
 function authMiddleware(requiredRoles = []) {
   return (req, res, next) => {
     const cid = req.correlationId;
@@ -31,8 +21,7 @@ function authMiddleware(requiredRoles = []) {
         });
       }
 
-      // ✅ Verify JWT (issuer/audience must match token)
-      // If you want to temporarily bypass issuer/audience for debugging, comment the options object.
+  
       const verifyOptions = {
         issuer: env.JWT_ISSUER,
         audience: env.JWT_AUDIENCE,
@@ -42,12 +31,12 @@ function authMiddleware(requiredRoles = []) {
       try {
         payload = jwt.verify(token, env.JWT_SECRET, verifyOptions);
       } catch (err) {
-        // 🔥 LOG CHI TIẾT lỗi verify
+   
         console.log("[AUTH VERIFY FAIL]", {
           cid,
           name: err?.name,
           message: err?.message,
-          // show what gateway expects (helps spot env mismatch)
+      
           expectedIssuer: env.JWT_ISSUER,
           expectedAudience: env.JWT_AUDIENCE,
         });
@@ -58,7 +47,6 @@ function authMiddleware(requiredRoles = []) {
         });
       }
 
-      // ✅ Robust userId mapping
       const userId =
         payload?.sub ||
         payload?.userId ||
@@ -78,7 +66,6 @@ function authMiddleware(requiredRoles = []) {
         });
       }
 
-      // ✅ Roles mapping
       let roles = payload.roles || payload.role || [];
       if (!Array.isArray(roles)) roles = typeof roles === "string" ? [roles] : [];
 
@@ -88,7 +75,6 @@ function authMiddleware(requiredRoles = []) {
         roles,
       };
 
-      // ✅ Debug log mapping success (bạn có thể tắt sau khi ổn)
       console.log("[AUTH OK]", {
         cid,
         userId: user.id,
@@ -96,7 +82,7 @@ function authMiddleware(requiredRoles = []) {
         audience: payload.aud,
       });
 
-      // Role check (optional)
+
       if (requiredRoles.length > 0) {
         const ok = requiredRoles.some((r) => user.roles.includes(r));
         if (!ok) {
@@ -109,13 +95,13 @@ function authMiddleware(requiredRoles = []) {
         }
       }
 
-      // Attach to request (for controller -> ctx)
+
       req.user = user;
       req.authHeader = authHeader;
 
       return next();
     } catch (err) {
-      // Catch-all (should be rare)
+
       console.log("[AUTH] Unexpected error", {
         cid,
         name: err?.name,

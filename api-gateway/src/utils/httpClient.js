@@ -24,28 +24,28 @@ function createHttpClient({ baseURL, serviceName, timeoutMs }) {
 
       config.headers = config.headers || {};
 
-      // Correlation ID
+    
       const cid = ctx?.correlationId;
       if (cid) {
         config.headers["x-correlation-id"] = cid;
-        config.headers["X-Correlation-Id"] = cid; // optional
+        config.headers["X-Correlation-Id"] = cid; 
       }
 
-      // Forward Authorization
+  
       const auth = ctx?.authHeader;
       if (auth) {
         config.headers["Authorization"] = auth;
-        config.headers["authorization"] = auth; // optional alias
+        config.headers["authorization"] = auth; 
       }
 
-      // ✅ IMPORTANT: User-service expects X-User-Id
+     
       const userId = ctx?.user?.id || ctx?.xUserId;
       if (userId) {
         config.headers["X-User-Id"] = String(userId);
-        config.headers["x-user-id"] = String(userId); // optional alias
+        config.headers["x-user-id"] = String(userId);
       }
 
-      // Trace
+    
       if (serviceName) config.headers["x-client-service"] = "api-gateway";
 
       if (!config.headers["user-agent"]) {

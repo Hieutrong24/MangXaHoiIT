@@ -13,7 +13,7 @@ public class Submission
     public Language? Language { get; set; }
 
     public string SourceCode { get; set; } = default!;
-    public byte[] CodeHash { get; set; } = default!; // 32 bytes (SHA-256)
+    public byte[] CodeHash { get; set; } = default!; 
     public DateTime SubmittedAt { get; set; } = DateTime.UtcNow;
 
     public SubmissionStatus Status { get; set; } = SubmissionStatus.Queued;

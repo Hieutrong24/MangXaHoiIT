@@ -4,7 +4,7 @@ namespace auth_service.src.Auth.Domain.Entities
 {
     public class LoginAuditLog
     {
-        public long Id { get; set; } // DB: BIGINT IDENTITY
+        public long Id { get; set; } 
         public Guid? UserId { get; set; }
 
         public string Email { get; set; } = default!;

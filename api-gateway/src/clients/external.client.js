@@ -2,7 +2,7 @@
 const axios = require("axios");
 const xml2js = require("xml2js");
 
-/* ================= COMMON ================= */
+
 
 async function fetchJson(url) {
   const r = await axios.get(url, { timeout: 15000 });
@@ -13,7 +13,6 @@ async function fetchXml(url) {
   const r = await axios.get(url, {
     timeout: 15000,
     headers: {
-      // một số RSS/site chặn UA rỗng
       "User-Agent":
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36",
       Accept: "application/xml,text/xml,*/*",
@@ -37,7 +36,7 @@ function toIsoMaybe(d) {
   return t.toISOString();
 }
 
-/* ================= IT NEWS ================= */
+
 
 exports.itNews = async ({ limit = 20, q = "" }) => {
   const [devto, hnTop] = await Promise.all([
@@ -80,9 +79,7 @@ exports.itNews = async ({ limit = 20, q = "" }) => {
   return filtered.slice(0, limit);
 };
 
-/* ================= JOB PROVIDERS ================= */
 
-// ------- Remotive (JSON API) -------
 async function fetchRemotive(q, limit) {
   const url = `https://remotive.com/api/remote-jobs?search=${encodeURIComponent(q)}`;
   const data = await fetchJson(url);
@@ -98,7 +95,7 @@ async function fetchRemotive(q, limit) {
   }));
 }
 
-// ------- ITviec sitemap (XML) -------
+
 async function fetchITViecFromSitemap(limit) {
   try {
     const xml = await fetchXml("https://itviec.com/job-sitemap.xml");
@@ -131,15 +128,15 @@ async function fetchITViecFromSitemap(limit) {
   }
 }
 
-// ------- Generic RSS (VietnamWorks / CareerBuilder / TopCV nếu có RSS) -------
+
 async function fetchRssJobs({ feedUrl, source, limit }) {
   try {
     const xml = await fetchXml(feedUrl);
 
-    // RSS thường có dạng: rss.channel[0].item
+  
     const items =
       xml?.rss?.channel?.[0]?.item ||
-      xml?.feed?.entry || // Atom (một số feed dùng Atom)
+      xml?.feed?.entry || 
       [];
 
     // RSS
@@ -150,7 +147,7 @@ async function fetchRssJobs({ feedUrl, source, limit }) {
         const pubDate = pickFirst(it.pubDate);
         const guid = pickFirst(it.guid);
 
-        // link có thể là object { _: "..."} tuỳ feed
+      
         const url =
           typeof link === "string"
             ? link
@@ -174,7 +171,7 @@ async function fetchRssJobs({ feedUrl, source, limit }) {
         const title = pickFirst(it.title);
         const published = pickFirst(it.published) || pickFirst(it.updated);
         const links = it.link || [];
-        // Atom link thường là mảng object có attr href
+ 
         const url =
           (Array.isArray(links) ? links.find((l) => l?.$?.href)?.$?.href : null) ||
           (links?.$?.href) ||
@@ -199,11 +196,11 @@ async function fetchRssJobs({ feedUrl, source, limit }) {
   }
 }
 
-/* ================= MERGED JOBS ================= */
+
 
 exports.itJobs = async ({ limit = 20, q = "software" }) => {
   try {
-    // Bạn có thể tăng limit tổng, nhưng vẫn chia nguồn để không bị timeout
+ 
     const per = Math.max(5, Math.ceil(limit / 4));
 
     // TODO: điền RSS URL thật nếu có
@@ -229,10 +226,9 @@ exports.itJobs = async ({ limit = 20, q = "software" }) => {
     const results = await Promise.all(tasks);
     const merged = results.flat();
 
-    // sort theo createdAt (nếu thiếu createdAt thì vẫn giữ)
     merged.sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
 
-    // unique theo url (tránh trùng)
+   
     const seen = new Set();
     const uniq = [];
     for (const it of merged) {

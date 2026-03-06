@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeJudge.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fb6b6a4cddb9ae7c87a3b650e48aba2c1b8fbeb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6f126382d590692e665513edb56a34789fcc88f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeJudge.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeJudge.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

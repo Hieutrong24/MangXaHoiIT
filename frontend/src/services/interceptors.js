@@ -1,11 +1,6 @@
 // src/services/interceptors.js
 import { tokenStorage } from "./tokenStorage";
 
-/**
- * Gắn interceptors cho axios instance.
- * - request: attach token
- * - response: handle 401 (logout) / refresh (tuỳ backend)
- */
 export function attachInterceptors(http, { onUnauthorized } = {}) {
   http.interceptors.request.use((config) => {
     const token = tokenStorage.get();
@@ -19,8 +14,7 @@ export function attachInterceptors(http, { onUnauthorized } = {}) {
       const status = err?.response?.status;
 
       if (status === 401) {
-        // TODO: nếu bạn có refresh token endpoint, xử lý ở đây.
-        // Tạm thời: clear token + callback
+       
         tokenStorage.clear();
         if (typeof onUnauthorized === "function") onUnauthorized();
       }

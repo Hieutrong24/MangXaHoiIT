@@ -18,7 +18,6 @@ namespace Auth.API.Extensions
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Auth Service", Version = "v1" });
 
-                // Nếu bạn muốn test bearer token trên Swagger
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Name = "Authorization",

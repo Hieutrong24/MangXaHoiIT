@@ -21,7 +21,6 @@ const healthController = {
   async checkServices(req, res) {
     const correlationId = req.correlationId;
 
-    // Tùy service bạn có health endpoint gì:
     const results = {
       auth: await safeCall(() => authClient.ping?.({ correlationId }) ?? Promise.resolve("no ping")),
       user: await safeCall(() => userClient.ping?.({ correlationId }) ?? Promise.resolve("no ping")),

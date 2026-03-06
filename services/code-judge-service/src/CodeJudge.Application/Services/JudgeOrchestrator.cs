@@ -73,14 +73,13 @@ public sealed class JudgeOrchestrator
 
             var runnerResp = await _runner.RunAsync(runnerReq, ct);
 
-            // compile log -> Mongo
+        
             if (!string.IsNullOrWhiteSpace(runnerResp.CompileLog))
                 await _logs.AppendAsync(submissionId, "compile", runnerResp.CompileLog!, ct);
 
-            // delete old results (if any)
+
             await _results.DeleteBySubmissionAsync(submissionId, ct);
 
-            // build per-test result rows
             var tcByIndex = tcs.OrderBy(x => x.OrderNo).Select((x, i) => new { idx = i + 1, tc = x }).ToDictionary(x => x.idx, x => x.tc);
 
             var rows = new List<JudgeResult>();
@@ -103,7 +102,6 @@ public sealed class JudgeOrchestrator
 
             await _results.AddRangeAsync(rows, ct);
 
-            // scoring: if tc.Score all 0 => má»—i test pass = 1
             var allZero = tcs.All(x => x.Score == 0);
             int score = 0;
             foreach (var r in rows)
@@ -126,7 +124,6 @@ public sealed class JudgeOrchestrator
                 ct
             );
 
-            // update stats + outbox
             await _stats.UpsertAsync(sub.UserId, sub.ProblemId, (byte)finalStatus, runnerResp.TotalTimeMs, runnerResp.PeakMemoryKb, score, sub.SubmittedAt, ct);
             await _outbox.AddAsync(new OutboxCreate(
                 AggregateId: submissionId,

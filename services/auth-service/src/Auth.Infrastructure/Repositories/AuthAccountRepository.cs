@@ -18,9 +18,7 @@ namespace auth_service.src.Auth.Infrastructure.Repositories
         {
             var normalized = NormalizeEmail(email);
 
-            // NOTE:
-            // - Nếu Email.Value trong DB đã luôn lowercase/trim thì chỉ cần so sánh ==
-            // - Nếu DB case-sensitive (vd PostgreSQL), ToLower() giúp match ổn định hơn
+            
             return await _context.AuthAccounts
                 .AsNoTracking()
                 .FirstOrDefaultAsync(x => x.Email.Value.ToLower() == normalized);

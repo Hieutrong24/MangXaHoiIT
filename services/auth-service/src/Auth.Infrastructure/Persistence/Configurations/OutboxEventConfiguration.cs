@@ -40,7 +40,7 @@ namespace auth_service.src.Auth.Infrastructure.Persistence.Configurations
                 .HasMaxLength(100)
                 .IsUnicode();
 
-            builder.HasIndex(x => new { x.ProcessedAt, x.OccurredAt }); // IX_Auth_OutboxEvents_ProcessedAt_OccurredAt
+            builder.HasIndex(x => new { x.ProcessedAt, x.OccurredAt }); 
         }
     }
 }

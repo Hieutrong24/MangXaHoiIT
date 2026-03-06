@@ -7,8 +7,7 @@ function buildApp({ dispatcher }) {
 
   app.get("/health", (req, res) => res.json({ ok: true }));
 
-  // POST /events
-  // body: { type: "code.result", payload: {...}, traceId?, occurredAt? }
+
   app.post("/events", async (req, res) => {
     try {
       const msg = req.body || {};

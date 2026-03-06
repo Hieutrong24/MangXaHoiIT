@@ -27,9 +27,7 @@ function uid() {
 export function createCallSignaling({ socket, currentUserId, onState }) {
   let call = null;
   let disposed = false;
-
-  // ✅ handle ICE that arrives BEFORE invite/answer
-  const pendingIceByCallId = new Map(); // callId -> RTCIceCandidateInit[]
+  const pendingIceByCallId = new Map(); 
 
   const emitState = (next) => {
     if (disposed) return;
@@ -52,7 +50,6 @@ export function createCallSignaling({ socket, currentUserId, onState }) {
     stopStream(call.localStream);
     stopStream(call.remoteStream);
 
-    // clear pending ICE for this call
     if (call.callId) pendingIceByCallId.delete(call.callId);
 
     call = null;
@@ -76,7 +73,6 @@ export function createCallSignaling({ socket, currentUserId, onState }) {
   }
 
   function attachPcStateWatchers(pc) {
-    // when disconnected/failed => cleanup UI
     const onConn = () => {
       const st = pc.connectionState;
       if (st === "failed" || st === "disconnected" || st === "closed") {
@@ -93,7 +89,6 @@ export function createCallSignaling({ socket, currentUserId, onState }) {
     pc.addEventListener?.("connectionstatechange", onConn);
     pc.addEventListener?.("iceconnectionstatechange", onIceConn);
 
-    // store for optional remove (not mandatory)
     pc.___tdmu_onConn = onConn;
     pc.___tdmu_onIceConn = onIceConn;
   }
@@ -102,7 +97,6 @@ export function createCallSignaling({ socket, currentUserId, onState }) {
     ensureNotDisposed();
     if (!toUserId) throw new Error("toUserId required");
 
-    // đang có call => không start call mới
     if (call) throw new Error("You are already in a call.");
 
     const callId = uid();
@@ -110,7 +104,6 @@ export function createCallSignaling({ socket, currentUserId, onState }) {
 
     const pc = createPeerConnection({
       onIceCandidate: (candidate) => {
-        // candidate can be null at end of gathering
         if (!candidate) return;
 
         socket.emit("call:ice", {
@@ -144,7 +137,6 @@ export function createCallSignaling({ socket, currentUserId, onState }) {
     const offer = await pc.createOffer();
     await pc.setLocalDescription(offer);
 
-    // gửi invite
     socket.emit("call:invite", {
       callId,
       fromUserId: currentUserId,
@@ -153,7 +145,6 @@ export function createCallSignaling({ socket, currentUserId, onState }) {
       offer,
     });
 
-    // if ICE arrived early from peer (rare), keep until remote desc set
   }
 
   async function acceptIncoming() {
@@ -192,7 +183,6 @@ export function createCallSignaling({ socket, currentUserId, onState }) {
 
     await safeSetRemoteDescription(pc, offer);
 
-    // ✅ flush ICE queued (including those that arrived before invite)
     await flushPendingIce(callId, pc);
 
     const answer = await pc.createAnswer();
@@ -238,14 +228,11 @@ export function createCallSignaling({ socket, currentUserId, onState }) {
     cleanup();
   }
 
-  // ================== SOCKET HANDLERS ==================
   const onInvite = (payload) => {
     if (!payload?.callId || !payload?.fromUserId) return;
 
-    // ensure the invite is for me
     if (payload.toUserId && String(payload.toUserId) !== String(currentUserId)) return;
 
-    // đang có call => báo bận
     if (call) {
       socket.emit("call:reject", {
         callId: payload.callId,
@@ -281,7 +268,6 @@ export function createCallSignaling({ socket, currentUserId, onState }) {
 
     await safeSetRemoteDescription(call.pc, payload.answer);
 
-    // ✅ flush ICE queued for this callId
     await flushPendingIce(call.callId, call.pc);
 
     patchState({ status: "active" });
@@ -290,7 +276,6 @@ export function createCallSignaling({ socket, currentUserId, onState }) {
   const onIce = async (payload) => {
     if (!payload?.callId || !payload?.candidate) return;
 
-    // nếu chưa có call (ICE đến sớm) => store by callId
     if (!call || payload.callId !== call.callId || !call.pc) {
       const arr = pendingIceByCallId.get(payload.callId) || [];
       arr.push(payload.candidate);
@@ -298,7 +283,6 @@ export function createCallSignaling({ socket, currentUserId, onState }) {
       return;
     }
 
-    // nếu chưa set remoteDescription => queue
     if (!call.pc.remoteDescription) {
       const arr = pendingIceByCallId.get(payload.callId) || [];
       arr.push(payload.candidate);

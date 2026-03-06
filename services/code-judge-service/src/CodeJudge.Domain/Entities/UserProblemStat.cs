@@ -6,7 +6,7 @@ public class UserProblemStat
     public Guid ProblemId { get; set; }
     public Problem? Problem { get; set; }
 
-    public byte BestStatus { get; set; } // same as Judge_Submissions.Status
+    public byte BestStatus { get; set; } 
     public int? BestTimeMs { get; set; }
     public int? BestMemoryKB { get; set; }
     public int Attempts { get; set; }

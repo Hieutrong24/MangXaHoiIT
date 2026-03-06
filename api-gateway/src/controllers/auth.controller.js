@@ -4,8 +4,8 @@ const { authClient } = require("../clients/auth.client");
 function ctxFromReq(req) {
   return {
     correlationId: req.correlationId,
-    authHeader: req.authHeader, // may be undefined
-    user: req.user, // may be undefined
+    authHeader: req.authHeader, 
+    user: req.user, 
   };
 }
 

@@ -35,7 +35,7 @@ export function AuthLayout() {
           <Outlet />
           <div className="mt-6 text-center text-xs text-slate-400">
             <Link className="hover:text-slate-200" to="/feed">
-              Xem demo (cần login nếu bật bảo vệ)
+              Xem demo
             </Link>
           </div>
         </motion.div>

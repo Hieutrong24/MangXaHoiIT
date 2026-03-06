@@ -4,7 +4,7 @@ const { codejudgeClient } = require("../clients/codejudge.client");
 function ctxFromReq(req) {
   return {
     correlationId: req.correlationId,
-    authHeader: req.authHeader, // bạn đang set ở auth middleware
+    authHeader: req.authHeader, 
     user: req.user,
   };
 }
@@ -12,7 +12,6 @@ function ctxFromReq(req) {
 const codeController = {
   async listLanguages(req, res, next) {
     try {
-      // ✅ bạn cần implement codejudgeClient.listLanguages()
       const data = await codejudgeClient.listLanguages(ctxFromReq(req));
       return res.json({ success: true, data, correlationId: req.correlationId });
     } catch (e) {

@@ -7,7 +7,6 @@ namespace auth_service.src.Auth.Domain.Entities
         public Guid TokenId { get; private set; }
         public Guid UserId { get; private set; }
 
-        // DB: TokenHash BINARY(32) = SHA-256(token)
         public byte[] TokenHash { get; private set; } = default!;
 
         public DateTime IssuedAt { get; private set; }

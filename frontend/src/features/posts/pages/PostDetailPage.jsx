@@ -31,7 +31,6 @@ function formatTime(t) {
 }
 
 function unwrapPost(res) {
-  // support: { success, data, correlationId } OR plain post object
   if (!res) return null;
   if (res?.data && typeof res.data === "object") return res.data;
   return res;
@@ -88,8 +87,7 @@ export default function PostDetailPage() {
   useEffect(() => {
     fetchPost();
   }, [fetchPost]);
-
-  // ====== derive fields ======
+ 
   const title = useMemo(() => {
     if (post?.title) return post.title;
     if (post?.content) return String(post.content).slice(0, 80);
@@ -97,8 +95,7 @@ export default function PostDetailPage() {
   }, [post, id]);
 
   const content = post?.content ?? "";
-
-  // support author / authorId
+ 
   const author = useMemo(() => {
     const a = post?.author ?? post?.authorId;
     if (!a) return "unknown";
@@ -107,8 +104,7 @@ export default function PostDetailPage() {
   }, [post]);
 
   const createdAt = post?.createdAt || post?.updatedAt;
-
-  // likes can be array of UUID/ObjectId or number-like
+ 
   const likeCount = Array.isArray(post?.likes)
     ? post.likes.length
     : Number(post?.likeCount ?? 0);
@@ -137,8 +133,7 @@ export default function PostDetailPage() {
   const images = Array.isArray(post?.images) ? post.images : [];
   const videos = Array.isArray(post?.videos) ? post.videos : [];
   const others = Array.isArray(post?.others) ? post.others : [];
-
-  // ====== UI states ======
+ 
   if (loading) {
     return (
       <div className="grid gap-4">

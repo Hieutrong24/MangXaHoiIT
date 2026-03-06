@@ -4,11 +4,9 @@ function userRoom(userId) {
   return `user:${String(userId)}`;
 }
 
-// dm:<a>:<b>  (a,b sorted)
 function parseDmPeerIds(chatId) {
   try {
     const s = String(chatId || "");
-    // dm:111:222
     if (!s.startsWith("dm:")) return null;
     const parts = s.split(":");
     if (parts.length !== 3) return null;
@@ -25,13 +23,9 @@ function registerChatGateway({ io, chatService, getUserId }) {
 
   io.on("connection", (socket) => {
     const userId = getUserId(socket);
-
-    // ✅ join personal room so server can always reach this user
     if (userId) {
       socket.join(userRoom(userId));
     }
-
-    // ================== CHAT ROOMS ==================
     socket.on("chat:join", async (payload, ack) => {
       try {
         const chatId = payload?.chatId;
@@ -39,7 +33,6 @@ function registerChatGateway({ io, chatService, getUserId }) {
 
         await socket.join(chatId);
 
-        // optional: confirm joined
         ack && ack({ ok: true, chatId });
       } catch (e) {
         ack && ack({ ok: false, error: e.message });
@@ -58,7 +51,6 @@ function registerChatGateway({ io, chatService, getUserId }) {
       }
     });
 
-    // ================== MESSAGES ==================
     socket.on("message:send", async (payload, ack) => {
       try {
         if (!userId) throw new Error("Unauthorized");
@@ -75,24 +67,16 @@ function registerChatGateway({ io, chatService, getUserId }) {
           clientMessageId: payload?.clientMessageId || null,
         });
 
-        // ✅ 1) Emit to room chat (if both joined)
         io.to(chatId).emit("message:new", { chatId, message: dto });
-
-        // ✅ 2) ALSO emit to personal rooms (always works)
-        // For DM chatId, infer peer ids from chatId
         const dm = parseDmPeerIds(chatId);
 
         if (dm) {
-          // dm.a / dm.b are already sorted ids in chatId
           io.to(userRoom(dm.a)).emit("message:new", { chatId, message: dto });
           io.to(userRoom(dm.b)).emit("message:new", { chatId, message: dto });
         } else {
-          // if group chat later: you should have member list in DB
-          // for now just ensure sender still receives:
           io.to(userRoom(userId)).emit("message:new", { chatId, message: dto });
         }
 
-        // ack for sender (client should NOT double-add; dedup by message._id)
         ack && ack({ ok: true, message: dto });
       } catch (e) {
         ack && ack({ ok: false, error: e.message });
@@ -119,11 +103,8 @@ function registerChatGateway({ io, chatService, getUserId }) {
       if (!chatId) return;
       const isTyping = !!payload?.isTyping;
 
-      // broadcast within chat room
       socket.to(chatId).emit("typing", { chatId, userId, isTyping });
     });
-
-    // ================== CALL SIGNALING (RELAY) ==================
     const relayToUser = (toUserId, event, data) => {
       if (!toUserId) return;
       io.to(userRoom(toUserId)).emit(event, data);

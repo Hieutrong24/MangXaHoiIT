@@ -65,16 +65,12 @@ export default function LoginPage() {
         throw new Error("Backend không trả userId.");
       }
 
-      // ✅ SỬ DỤNG tokenStorage (đúng kiến trúc)
       tokenStorage.set(token);
 
-      // lưu userId cho ChatPage
       localStorage.setItem("userId", String(userId));
 
-      // lưu user (tuỳ chọn)
       localStorage.setItem("user", JSON.stringify(user));
 
-      // cập nhật auth context
       setSession(token, { ...user, id: userId, userId });
 
       nav("/chat");

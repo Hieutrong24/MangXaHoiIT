@@ -5,7 +5,7 @@ const { createRateLimiter } = require("../middlewares/rateLimit.middleware");
 
 const router = express.Router();
 
-// Rate limit mạnh cho login/refresh (tránh brute-force)
+
 const authLimiter = createRateLimiter({ windowMs: 60 * 1000, max: 20 });
 
 router.post("/login", authLimiter, authController.login);

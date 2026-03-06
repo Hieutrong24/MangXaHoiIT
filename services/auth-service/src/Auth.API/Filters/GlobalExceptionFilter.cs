@@ -44,7 +44,7 @@ namespace Auth.API.Filters
                 return;
             }
 
-            // default 500
+          
             context.Result = new ObjectResult(new ProblemDetails
             {
                 Title = "Internal Server Error",

@@ -22,7 +22,7 @@ function normalizeTags(tags) {
 }
 
 function unwrap(res) {
-  // support: { success, data, correlationId } OR plain
+ 
   return res?.data ?? res;
 }
 
@@ -44,7 +44,7 @@ export default function PostEditorPage({ mode }) {
     [isEdit]
   );
 
-  // Load post when edit
+ 
   useEffect(() => {
     let mounted = true;
 
@@ -105,18 +105,15 @@ export default function PostEditorPage({ mode }) {
       if (!safeContent) throw new Error("Vui lòng nhập nội dung.");
 
       const list = Array.isArray(attachments) ? attachments : [];
-
-      // 1) Upload attachments -> get urls
+ 
       const uploaded = await Promise.all(
         list.map(async (a) => {
           if (!a?.file) {
-            // không có file thì bỏ qua
             return null;
           }
 
-          const kind = a.kind === "file" ? "raw" : a.kind; // file => raw
-
-          // uploadApi.uploadToCloudinary trả {url,...} hoặc {secure_url,...}
+          const kind = a.kind === "file" ? "raw" : a.kind;  
+ 
           const out = await uploadApi.uploadToCloudinary(a.file, kind);
           const url = out?.url || out?.secure_url;
 
@@ -134,8 +131,7 @@ export default function PostEditorPage({ mode }) {
       const images = ok.filter((a) => a.kind === "image").map((a) => a.url);
       const videos = ok.filter((a) => a.kind === "video").map((a) => a.url);
       const others = ok.filter((a) => a.kind === "file").map((a) => a.url);
-
-      // 2) Create/Update payload (theo schema content-service bạn đang dùng)
+ 
       const payload = {
         authorId: userId,
         title: safeTitle,

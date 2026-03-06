@@ -20,7 +20,7 @@ export default function PostListPage() {
           Danh sách bài viết sẽ lấy từ <code className="text-slate-100">/api/content</code> (gateway).
         </div>
         <div className="mt-4 text-xs text-slate-400">
-          (Mình sẽ nối API thật cho bạn ngay khi bạn gửi endpoints chuẩn của content-service.)
+         ..
         </div>
       </GlassCard>
     </div>

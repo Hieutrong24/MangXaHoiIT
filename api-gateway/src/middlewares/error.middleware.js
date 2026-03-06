@@ -8,17 +8,17 @@ function errorMiddleware(err, req, res, next) {
     correlationId: req.correlationId,
   };
 
-  // If upstream error, include safe details (không leak stack)
+
   if (err.upstream) {
     payload.upstream = {
       service: err.upstream.service,
       status: err.upstream.status,
-      // data có thể chứa message từ service (tuỳ bạn muốn giữ/ẩn)
+
       data: err.upstream.data,
     };
   }
 
-  // Log server-side
+
   if (status >= 500) {
     console.error("[Gateway Error]", {
       status,

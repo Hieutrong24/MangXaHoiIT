@@ -49,8 +49,8 @@ namespace auth_service.src.Auth.Infrastructure.Persistence.Configurations
                 .HasDefaultValueSql("SYSUTCDATETIME()")
                 .IsRequired();
 
-            builder.HasIndex(x => new { x.Email, x.CreatedAt }); // IX_Auth_LoginAuditLogs_Email_CreatedAt
-            builder.HasIndex(x => new { x.UserId, x.CreatedAt }); // IX_Auth_LoginAuditLogs_UserId_CreatedAt
+            builder.HasIndex(x => new { x.Email, x.CreatedAt }); 
+            builder.HasIndex(x => new { x.UserId, x.CreatedAt }); 
         }
     }
 }

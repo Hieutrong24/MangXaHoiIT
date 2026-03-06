@@ -2,7 +2,6 @@
 const express = require("express");
 
 function getUserIdFromReq(req) {
-  // demo: lấy từ header; production thì verify JWT rồi set req.user
   return req.headers["x-user-id"] || req.headers["x-userid"] || null;
 }
 

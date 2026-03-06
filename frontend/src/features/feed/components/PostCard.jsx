@@ -44,7 +44,6 @@ export default function PostCard({
   const excerpt =
     post?.excerpt || (post?.content ? String(post.content).slice(0, 160) : "");
 
-  // (tuỳ bạn) xác định loại media
   const mediaType = useMemo(() => {
     if (post?.code) return "code";
     if (post?.imageUrl || post?.images?.length) return "image";
@@ -217,7 +216,7 @@ export default function PostCard({
               <span className={liked ? "text-cyan-100" : "text-slate-200/80"}>
                 Like
               </span>
-              {/* <span className="text-slate-400">{likeCount}</span> */}
+          
             </motion.button>
 
             {/* Comment */}

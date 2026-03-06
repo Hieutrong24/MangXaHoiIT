@@ -10,7 +10,6 @@ function createSocketServer(httpServer, { corsOrigin = "*" } = {}) {
     }
   });
 
-  // demo auth: lấy userId từ handshake
   io.use((socket, next) => {
     const userId =
       socket.handshake.auth?.userId ||
@@ -18,7 +17,6 @@ function createSocketServer(httpServer, { corsOrigin = "*" } = {}) {
       socket.handshake.headers["x-userid"];
 
     if (!userId) {
-      // cho phép connect nhưng userId null => bạn có thể next(new Error("UNAUTHORIZED"))
       socket.data.userId = null;
     } else {
       socket.data.userId = String(userId);

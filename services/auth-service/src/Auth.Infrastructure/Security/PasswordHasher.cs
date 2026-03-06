@@ -7,8 +7,7 @@ namespace auth_service.src.Auth.Infrastructure.Security
 {
     public class PasswordHasher : IPasswordHasher
     {
-        // Nếu DB hiện tại đang seed theo SHA2_512 thì bạn có thể đổi DefaultAlgo = "SHA2_512"
-        // Còn nếu tạo mới thì BCRYPT an toàn hơn.
+       
         private const string DefaultAlgo = "BCRYPT";
 
         public (byte[] Hash, string Algo) Hash(string password, string? algo = null)
@@ -57,11 +56,7 @@ namespace auth_service.src.Auth.Infrastructure.Security
             };
         }
 
-        // ===================== SHA2_512 (64 bytes) =====================
-        // IMPORTANT:
-        // SQL Server khi bạn dùng:
-        //   HASHBYTES('SHA2_512', CONVERT(varbinary(max), N'password'))
-        // thì N'...' là NVARCHAR => bytes là UTF-16LE => tương ứng Encoding.Unicode trong .NET
+        
         private static byte[] HashSha512(string password)
             => SHA512.HashData(GetSqlServerUnicodeBytes(password));
 
@@ -76,8 +71,7 @@ namespace auth_service.src.Auth.Infrastructure.Security
         private static byte[] GetSqlServerUnicodeBytes(string s)
             => Encoding.Unicode.GetBytes(s); // UTF-16LE
 
-        // ===================== BCRYPT (string ~60 chars) =====================
-        // Lưu bcrypt hash dưới dạng UTF8 bytes vào VARBINARY(256)
+      
         private static byte[] HashBcrypt(string password)
         {
             var bcryptHash = BCrypt.Net.BCrypt.HashPassword(password, workFactor: 11);
@@ -88,7 +82,6 @@ namespace auth_service.src.Auth.Infrastructure.Security
         {
             if (storedHashBytes.Length == 0) return false;
 
-            // VARBINARY(256) có thể có trailing 0x00 -> trim
             var bcryptHash = Encoding.UTF8.GetString(storedHashBytes).TrimEnd('\0').Trim();
 
             if (!(bcryptHash.StartsWith("$2a$") || bcryptHash.StartsWith("$2b$") || bcryptHash.StartsWith("$2y$")))

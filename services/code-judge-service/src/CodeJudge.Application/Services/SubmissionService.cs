@@ -78,13 +78,10 @@ public sealed class SubmissionService : ISubmissionService
 
         var tests = await _results.ListBySubmissionAsync(submissionId, ct);
 
-        // Verdict = theo Submission.Status
         var verdict = sub.Status.ToString();
 
-        // PeakMemory = max memory of tests
         var peak = tests.Count == 0 ? 0 : tests.Max(x => x.MemoryKB);
 
-        // OrderNo láº¥y tá»« TestCase navigation náº¿u cĂ³
         var items = tests.Select(t => new JudgeTestResultDto(
             t.TestCaseId,
             t.TestCase?.OrderNo ?? 0,
@@ -99,7 +96,6 @@ public sealed class SubmissionService : ISubmissionService
 
     public async Task RejudgeAsync(Guid submissionId, CancellationToken ct = default)
     {
-        // reset: delete old test results, set queued
         await _results.DeleteBySubmissionAsync(submissionId, ct);
         await _subs.UpdateStatusAsync(submissionId, SubmissionStatus.Queued, null, null, null, null, ct);
         await _uow.SaveChangesAsync(ct);
@@ -108,7 +104,6 @@ public sealed class SubmissionService : ISubmissionService
 
     public async Task CancelAsync(Guid submissionId, CancellationToken ct = default)
     {
-        // DB khĂ´ng cĂ³ Cancel status -> set RE vĂ  message Cancelled
         await _subs.UpdateStatusAsync(submissionId, SubmissionStatus.RE, "Cancelled", null, null, null, ct);
         await _uow.SaveChangesAsync(ct);
     }

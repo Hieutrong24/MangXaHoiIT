@@ -51,9 +51,7 @@ export default function PostEditor({
   const [tagInput, setTagInput] = useState("");
   const [loading, setLoading] = useState(false);
   const isBusy = loading || submitting;
-
-  // attachments: KHÔNG lưu base64 nữa để tránh 413
-  // lưu file + previewUrl (objectURL)
+ 
   const [attachments, setAttachments] = useState([]);
   const fileInputRef = useRef(null);
 
@@ -65,8 +63,7 @@ export default function PostEditor({
       setTags(initialTags.map((t) => String(t).trim().toLowerCase()).filter(Boolean));
     }
   }, [initialTags]);
-
-  // cleanup objectURL
+ 
   useEffect(() => {
     return () => {
       for (const a of attachments) {
@@ -75,7 +72,6 @@ export default function PostEditor({
         }
       }
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const addTag = (value) => {
@@ -143,8 +139,8 @@ export default function PostEditor({
         name: f.name,
         size: f.size,
         mime: f.type || "application/octet-stream",
-        file: f, // ✅ gửi file thật để upload cloudinary
-        previewUrl, // ✅ để preview trong UI
+        file: f, 
+        previewUrl,
       });
     }
 
@@ -164,19 +160,16 @@ export default function PostEditor({
     for (const a of attachments) c[a.kind] = (c[a.kind] || 0) + 1;
     return c;
   }, [attachments]);
-
-  // chèn markdown chỉ để “note”, không phải dataUrl nữa
+ 
   const insertAttachmentToMarkdown = (att) => {
     setContent((prev) => {
       const sep = prev.endsWith("\n") || !prev ? "" : "\n";
-      // previewUrl là blob:... chỉ dùng local, sau upload sẽ thay link thật ở bước submit (tuỳ bạn)
       if (att.kind === "image") return `${prev}${sep}![${att.name}](${att.previewUrl})\n`;
       return `${prev}${sep}[${att.name}](${att.previewUrl})\n`;
     });
   };
 
   const handleSubmit = async () => {
-    // ✅ chỉ bắt buộc content (schema backend của bạn không có title)
     if (!String(content || "").trim()) return;
 
     setLoading(true);
@@ -185,7 +178,7 @@ export default function PostEditor({
         title: title ?? "",
         content,
         tags,
-        attachments, // ✅ chứa file thật
+        attachments, 
       });
     } finally {
       setLoading(false);
@@ -204,7 +197,6 @@ export default function PostEditor({
           )}
         >
           <div className="space-y-5">
-            {/* TITLE (optional) */}
             <div className="relative">
               <input
                 value={title}

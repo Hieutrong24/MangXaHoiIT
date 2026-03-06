@@ -15,7 +15,6 @@ public class RunController : ControllerBase
         _judge0 = judge0;
     }
 
-    // Run nhanh (wait=true)
     [HttpPost]
     public async Task<IActionResult> Run([FromBody] Judge0RequestDto request, CancellationToken ct)
     {
@@ -23,15 +22,12 @@ public class RunController : ControllerBase
         return Ok(result);
     }
 
-    // Nếu muốn submit không wait (nhận token)
     [HttpPost("submit")]
     public async Task<IActionResult> Submit([FromBody] Judge0RequestDto request, CancellationToken ct)
     {
         var result = await _judge0.SubmitAsync(request, ct);
         return Ok(result);
     }
-
-    // Poll kết quả theo token
     [HttpGet("{token}")]
     public async Task<IActionResult> GetResult([FromRoute] string token, CancellationToken ct)
     {

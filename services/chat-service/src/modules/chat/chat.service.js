@@ -40,7 +40,7 @@ async function sendMessage(input) {
   const meta = input.meta || {};
   const clientMessageId = input.clientMessageId || null;
 
-  // create message (idempotent nếu clientMessageId bị gửi lại)
+   
   let created;
   try {
     created = await repo.createMessage({
@@ -52,11 +52,7 @@ async function sendMessage(input) {
       clientMessageId
     });
   } catch (e) {
-    // duplicate clientMessageId => lấy message đã tồn tại
-    // Mongo duplicate key error code: 11000
     if (e && e.code === 11000 && clientMessageId) {
-      // fallback tìm message gần nhất theo clientMessageId
-      // (đơn giản: query lại)
       const { MessageModel } = require("./message.model");
       const existed = await MessageModel.findOne({ chatId, senderId, clientMessageId }).lean();
       if (existed) created = existed;
@@ -68,7 +64,6 @@ async function sendMessage(input) {
 
   const dto = toDto(created);
 
-  // side-effects via event bus (socket emit ở handler)
   emitMessageSent({ chatId, message: dto });
 
   return dto;

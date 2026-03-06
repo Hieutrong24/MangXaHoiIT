@@ -10,7 +10,6 @@ public class JudgeResult
     public Guid TestCaseId { get; set; }
     public TestCase? TestCase { get; set; }
 
-    // 1=pass,2=fail,3=TLE,4=MLE,5=RE,6=SKIP
     public byte Status { get; set; }
     public int TimeMs { get; set; }
     public int MemoryKB { get; set; }

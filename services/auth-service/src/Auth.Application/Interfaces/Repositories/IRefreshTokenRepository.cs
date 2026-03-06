@@ -6,9 +6,7 @@ namespace auth_service.src.Auth.Application.Interfaces.Repositories
     {
         Task AddAsync(RefreshToken token);
 
-        /// <summary>
-        /// Tìm refresh token theo hash (SHA-256 bytes[32]) - khớp DB TokenHash BINARY(32)
-        /// </summary>
+       
         Task<RefreshToken?> GetByHashAsync(byte[] tokenHash);
 
         Task UpdateAsync(RefreshToken token);

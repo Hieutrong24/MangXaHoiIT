@@ -58,7 +58,6 @@ function pickExcerpt(p) {
   return p?.excerpt || (p?.content ? String(p.content).slice(0, 160) : "");
 }
 
-/* ================= RANDOM (stable shuffle) ================= */
 
 function createRng(seed) {
   let t = seed >>> 0;
@@ -81,7 +80,6 @@ function shuffleStable(items, seed) {
   return arr;
 }
 
-/* ================= PAGE ================= */
 
 export default function HomeFeedPage() {
   const [posts, setPosts] = useState([]);
@@ -96,10 +94,7 @@ export default function HomeFeedPage() {
   const [commentPost, setCommentPost] = useState(null);
   const [sharePost, setSharePost] = useState(null);
 
-  // seed để random ổn định; chỉ đổi khi refresh jobs / đổi filter
   const [shuffleSeed, setShuffleSeed] = useState(() => Date.now());
-
-  /* ================= LOAD POSTS ================= */
 
   useEffect(() => {
     let alive = true;
@@ -123,7 +118,6 @@ export default function HomeFeedPage() {
     };
   }, []);
 
-  /* ================= LOAD JOBS ================= */
 
   const loadJobs = useCallback(async () => {
     setJobsLoading(true);
@@ -131,7 +125,7 @@ export default function HomeFeedPage() {
       const payload = await externalApi.itJobs({ limit: 100, q: "software" });
       const list = normalizeJobs(payload);
       setJobs(list);
-      setShuffleSeed(Date.now()); // đổi seed => random lại
+      setShuffleSeed(Date.now());
     } catch (e) {
       console.error("Load jobs error:", e);
       setJobs([]);
@@ -144,7 +138,6 @@ export default function HomeFeedPage() {
     loadJobs();
   }, [loadJobs]);
 
-  /* ================= FILTER POSTS ================= */
 
   const filteredPosts = useMemo(() => {
     let list = [...posts];
@@ -173,13 +166,11 @@ export default function HomeFeedPage() {
     return list;
   }, [posts, activeFilter, query]);
 
-  /* ================= MIX FEED (random thật, không 2-1) ================= */
 
   const mixedFeed = useMemo(() => {
     const postItems = filteredPosts.map((p) => ({ type: "post", data: p }));
     const jobItems = (jobs || []).map((j) => ({ type: "job", data: j }));
 
-    // trộn tất cả rồi shuffle
     const all = [...postItems, ...jobItems];
     return shuffleStable(all, shuffleSeed);
   }, [filteredPosts, jobs, shuffleSeed]);
