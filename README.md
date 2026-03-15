@@ -180,15 +180,17 @@ auth-service/
       │  └─ PasswordHasher.cs
       ├─ Auth.Infrastructure.csproj
       └─ DependencyInjection.cs
+```
 ✨ Vai trò chính
 
-Đăng nhập, đăng xuất
+- Đăng nhập, đăng xuất
 
-JWT và Refresh Token
+- JWT và Refresh Token
 
-Phân quyền và audit đăng nhập
+- Phân quyền và audit đăng nhập
 
-5.2 👤 user-service
+## 5.2 👤 user-service
+```text
 user-service/
 ├── .github
 ├── database/
@@ -203,17 +205,19 @@ user-service/
 ├── docker-compose.yml
 ├── README.md
 └── user-service.sln
+```
 ✨ Vai trò chính
 
-Hồ sơ người dùng
+- Hồ sơ người dùng
 
-Bạn bè, theo dõi
+- Bạn bè, theo dõi
 
-Chặn người dùng
+- Chặn người dùng
 
-Cài đặt cá nhân
+- Cài đặt cá nhân
 
-5.3 🧪 code-judge-service
+## 5.3 🧪 code-judge-service
+```text
 code-judge-service/
 ├── database/
 │   └── init.sql
@@ -229,19 +233,21 @@ code-judge-service/
 ├── docker-compose.yml
 ├── fix-structure.bat
 └── README.md
+```
 ✨ Vai trò chính
 
-Quản lý bài tập
+- Quản lý bài tập
 
-Test case
+- Test case
 
-Nộp bài
+- Nộp bài
 
-Chạy thử code
+- Chạy thử code
 
-Chấm code tự động
+- Chấm code tự động
 
-5.4 💬 chat-service
+## 5.4 💬 chat-service
+```text
 chat-service/
 ├── node_modules
 ├── src
@@ -264,15 +270,17 @@ chat-service/
 ├── chatcounters.json
 ├── docker-compose.yml
 └── Dockerfile
+```
 ✨ Vai trò chính
 
-Nhắn tin realtime
+- Nhắn tin realtime
 
-Quản lý cuộc trò chuyện
+- Quản lý cuộc trò chuyện
 
-Phát event khi có tin nhắn mới
+- Phát event khi có tin nhắn mới
 
-5.5 🧠 content-service
+## 5.5 🧠 content-service
+```text
 content-service/
 ├── node_modules
 ├── src
@@ -300,17 +308,19 @@ content-service/
 ├── comments.json
 ├── docker-compose.yml
 └── Dockerfile
+```
 ✨ Vai trò chính
 
-Quản lý bài viết
+- Quản lý bài viết
 
-Bình luận
+- Bình luận
 
-Upload nội dung
+- Upload nội dung
 
-AI hỗ trợ xử lý nội dung
+- AI hỗ trợ xử lý nội dung
 
-5.6 🔔 notification-service
+## 5.6 🔔 notification-service
+```text
 notification-service/
 └─ src/
    ├─ server.js
@@ -360,15 +370,17 @@ notification-service/
    └─ jobs/
       ├─ retry-failed-deliveries.job.js
       └─ cleanup-old-notifications.job.js
+```
 ✨ Vai trò chính
 
-Thông báo trong ứng dụng
+- Thông báo trong ứng dụng
 
-Thông báo qua email, push, websocket
+- Thông báo qua email, push, websocket
 
-Nhận event từ các service khác
+- Nhận event từ các service khác
 
-5.7 🖥️ frontend
+## 5.7 🖥️ frontend
+```text
 frontend/
   public/
   src/
@@ -416,18 +428,19 @@ frontend/
       icons/
 
     index.css
+```
 ✨ Vai trò chính
 
-Giao diện người dùng
+- Giao diện người dùng
 
-Tổ chức theo feature
+- Tổ chức theo feature
 
-Gọi API và quản lý token
+- Gọi API và quản lý token
 
-Hiển thị feed, chat, hồ sơ, bài tập, thông báo
+- Hiển thị feed, chat, hồ sơ, bài tập, thông báo
 
-6. 🧩 Giải thích kiến trúc áp dụng
-6.1 🏢 Microservices Architecture
+## 6. 🧩 Giải thích kiến trúc áp dụng
+## 6.1 🏢 Microservices Architecture
 📌 Khái niệm
 
 Microservices là mô hình chia hệ thống lớn thành nhiều service nhỏ, mỗi service phụ trách một nghiệp vụ riêng và có thể phát triển, triển khai, mở rộng độc lập.
@@ -592,52 +605,8 @@ hoàn tất chấm code
 
 tạo bài viết
 
-8. 📈 Sơ đồ kiến trúc hệ thống
 
-GitHub chỉ hiển thị sơ đồ này nếu repo hỗ trợ mermaid.
-
-flowchart LR
-    FE[🖥️ Frontend React] --> AUTH[🔐 auth-service]
-    FE --> USER[👤 user-service]
-    FE --> CONTENT[🧠 content-service]
-    FE --> CHAT[💬 chat-service]
-    FE --> JUDGE[🧪 code-judge-service]
-    FE --> NOTI[🔔 notification-service]
-
-    AUTH --> SQL1[(SQL Server)]
-    USER --> SQL2[(SQL Server)]
-    JUDGE --> SQL3[(SQL Server)]
-    JUDGE --> MONGO1[(MongoDB)]
-    CHAT --> MONGO2[(MongoDB)]
-    CONTENT --> MONGO3[(MongoDB)]
-    NOTI --> MONGO4[(MongoDB)]
-
-    CONTENT --> MQ[🐇 RabbitMQ]
-    CHAT --> MQ
-    JUDGE --> MQ
-    USER --> MQ
-
-    MQ --> NOTI
-What is this?
-9. 📡 Sơ đồ event với RabbitMQ
-
-GitHub chỉ hiển thị sơ đồ này nếu repo hỗ trợ mermaid.
-
-flowchart TD
-    CHAT[💬 chat-service] -->|message-sent| MQ[🐇 RabbitMQ]
-    CONTENT[🧠 content-service] -->|comment-created| MQ
-    CONTENT -->|post-created| MQ
-    USER[👤 user-service] -->|friend-request-sent| MQ
-    JUDGE[🧪 code-judge-service] -->|code-result| MQ
-
-    MQ --> NOTI[🔔 notification-service]
-
-    NOTI --> EMAIL[📧 Email Channel]
-    NOTI --> PUSH[📱 Push Channel]
-    NOTI --> WS[🌐 WebSocket Channel]
-    NOTI --> INAPP[🛎️ In-App Notification]
-What is this?
-10. ✅ Lợi ích của mô hình này
+9. ✅ Lợi ích của mô hình này
 👨‍💻 Đối với phát triển
 
 Dễ chia việc theo module
@@ -685,7 +654,7 @@ Triển khai bằng Kubernetes
 12. 📝 Ghi chú
 
 Trong tài liệu báo cáo kiến trúc, nên lược bỏ các thư mục build như bin, obj, node_modules
-
+z`
 Nên chuẩn hóa cấu hình môi trường giữa các service
 
 Nên định nghĩa rõ event contract khi dùng RabbitMQ
