@@ -1,0 +1,701 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.infrastructure\\runners\\judge0service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|solutionrelative:src\\codejudge.infrastructure\\runners\\judge0service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.infrastructure\\runners\\judge0options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|solutionrelative:src\\codejudge.infrastructure\\runners\\judge0options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.application\\dtos\\judge0requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|solutionrelative:src\\codejudge.application\\dtos\\judge0requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\controllers\\runcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\controllers\\runcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|solutionrelative:src\\codejudge.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.application\\dtos\\judge0submissionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|solutionrelative:src\\codejudge.application\\dtos\\judge0submissionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.application\\interfaces\\ijudge0service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|solutionrelative:src\\codejudge.application\\interfaces\\ijudge0service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.application\\dtos\\judge0responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|solutionrelative:src\\codejudge.application\\dtos\\judge0responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.application\\dtos\\runrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|solutionrelative:src\\codejudge.application\\dtos\\runrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.application\\services\\problemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|solutionrelative:src\\codejudge.application\\services\\problemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.application\\dtos\\problemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|solutionrelative:src\\codejudge.application\\dtos\\problemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\controllers\\problemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\controllers\\problemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE84A884-3865-4CA6-A4EB-35458B67EB4B}|src\\CodeJudge.Domain\\CodeJudge.Domain.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.domain\\entities\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE84A884-3865-4CA6-A4EB-35458B67EB4B}|src\\CodeJudge.Domain\\CodeJudge.Domain.csproj|solutionrelative:src\\codejudge.domain\\entities\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.application\\validation\\createsubmissionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|solutionrelative:src\\codejudge.application\\validation\\createsubmissionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\controllers\\judgecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\controllers\\judgecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\controllers\\submissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\controllers\\submissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\controllers\\testcasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\controllers\\testcasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\extensions\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\extensions\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.application\\dtos\\submissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|solutionrelative:src\\codejudge.application\\dtos\\submissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\inmemoryjudgequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\inmemoryjudgequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\judgebackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\judgebackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\extensions\\authextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\extensions\\authextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.api\\codejudge.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1957818B-88BB-4515-A4C1-FF997CEE0E8F}|src\\CodeJudge.API\\CodeJudge.API.csproj|solutionrelative:src\\codejudge.api\\codejudge.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.infrastructure\\persistence\\sqlserver\\configurations\\submissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|solutionrelative:src\\codejudge.infrastructure\\persistence\\sqlserver\\configurations\\submissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE84A884-3865-4CA6-A4EB-35458B67EB4B}|src\\CodeJudge.Domain\\CodeJudge.Domain.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.domain\\enums\\submissionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE84A884-3865-4CA6-A4EB-35458B67EB4B}|src\\CodeJudge.Domain\\CodeJudge.Domain.csproj|solutionrelative:src\\codejudge.domain\\enums\\submissionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.infrastructure\\persistence\\sqlserver\\configurations\\problemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|solutionrelative:src\\codejudge.infrastructure\\persistence\\sqlserver\\configurations\\problemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE84A884-3865-4CA6-A4EB-35458B67EB4B}|src\\CodeJudge.Domain\\CodeJudge.Domain.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.domain\\enums\\problemstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE84A884-3865-4CA6-A4EB-35458B67EB4B}|src\\CodeJudge.Domain\\CodeJudge.Domain.csproj|solutionrelative:src\\codejudge.domain\\enums\\problemstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.infrastructure\\repositories\\sqlserver\\problemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|solutionrelative:src\\codejudge.infrastructure\\repositories\\sqlserver\\problemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.application\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FBE9EC-0560-498E-A8D4-516B2788CCE1}|src\\CodeJudge.Application\\CodeJudge.Application.csproj|solutionrelative:src\\codejudge.application\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE84A884-3865-4CA6-A4EB-35458B67EB4B}|src\\CodeJudge.Domain\\CodeJudge.Domain.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.domain\\events\\submissionjudgeddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE84A884-3865-4CA6-A4EB-35458B67EB4B}|src\\CodeJudge.Domain\\CodeJudge.Domain.csproj|solutionrelative:src\\codejudge.domain\\events\\submissionjudgeddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE84A884-3865-4CA6-A4EB-35458B67EB4B}|src\\CodeJudge.Domain\\CodeJudge.Domain.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.domain\\events\\submissioncreateddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE84A884-3865-4CA6-A4EB-35458B67EB4B}|src\\CodeJudge.Domain\\CodeJudge.Domain.csproj|solutionrelative:src\\codejudge.domain\\events\\submissioncreateddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.infrastructure\\persistence\\mongo\\documents\\executionlogdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|solutionrelative:src\\codejudge.infrastructure\\persistence\\mongo\\documents\\executionlogdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.infrastructure\\repositories\\mongo\\submissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|solutionrelative:src\\codejudge.infrastructure\\repositories\\mongo\\submissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.infrastructure\\repositories\\mongo\\judgeresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|solutionrelative:src\\codejudge.infrastructure\\repositories\\mongo\\judgeresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|d:\\workspace\\document web\\it-social-platform\\services\\code-judge-service\\src\\codejudge.infrastructure\\repositories\\mongo\\executionlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3FBA7B-8E76-43F3-AA58-3D9C2667FDAB}|src\\CodeJudge.Infrastructure\\CodeJudge.Infrastructure.csproj|solutionrelative:src\\codejudge.infrastructure\\repositories\\mongo\\executionlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1880786602:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Judge0Service.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Runners\\Judge0Service.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Infrastructure\\Runners\\Judge0Service.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Runners\\Judge0Service.cs",
+              "RelativeToolTip": "src\\CodeJudge.Infrastructure\\Runners\\Judge0Service.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T22:08:40.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Judge0Options.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Runners\\Judge0Options.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Infrastructure\\Runners\\Judge0Options.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Runners\\Judge0Options.cs",
+              "RelativeToolTip": "src\\CodeJudge.Infrastructure\\Runners\\Judge0Options.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T22:08:16.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\CodeJudge.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwDYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:19:56.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RunController.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Controllers\\RunController.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\Controllers\\RunController.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Controllers\\RunController.cs",
+              "RelativeToolTip": "src\\CodeJudge.API\\Controllers\\RunController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T10:07:51.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\appsettings.json",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\appsettings.json",
+              "RelativeToolTip": "src\\CodeJudge.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-26T03:21:21.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\Program.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Program.cs",
+              "RelativeToolTip": "src\\CodeJudge.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:21:08.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\Dockerfile",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Dockerfile",
+              "RelativeToolTip": "src\\CodeJudge.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-26T06:52:17.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\CodeJudge.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-26T11:07:20.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Judge0RequestDto.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\DTOs\\Judge0RequestDto.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Application\\DTOs\\Judge0RequestDto.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\DTOs\\Judge0RequestDto.cs",
+              "RelativeToolTip": "src\\CodeJudge.Application\\DTOs\\Judge0RequestDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T02:13:47.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Judge0SubmissionResponseDto.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\DTOs\\Judge0SubmissionResponseDto.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Application\\DTOs\\Judge0SubmissionResponseDto.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\DTOs\\Judge0SubmissionResponseDto.cs",
+              "RelativeToolTip": "src\\CodeJudge.Application\\DTOs\\Judge0SubmissionResponseDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T22:06:48.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IJudge0Service.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\Interfaces\\IJudge0Service.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Application\\Interfaces\\IJudge0Service.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\Interfaces\\IJudge0Service.cs",
+              "RelativeToolTip": "src\\CodeJudge.Application\\Interfaces\\IJudge0Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T02:12:16.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Judge0ResponseDto.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\DTOs\\Judge0ResponseDto.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Application\\DTOs\\Judge0ResponseDto.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\DTOs\\Judge0ResponseDto.cs",
+              "RelativeToolTip": "src\\CodeJudge.Application\\DTOs\\Judge0ResponseDto.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T02:14:07.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RunRequestDto.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\DTOs\\RunRequestDto.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Application\\DTOs\\RunRequestDto.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\DTOs\\RunRequestDto.cs",
+              "RelativeToolTip": "src\\CodeJudge.Application\\DTOs\\RunRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T02:09:34.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProblemDto.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\DTOs\\ProblemDto.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Application\\DTOs\\ProblemDto.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\DTOs\\ProblemDto.cs",
+              "RelativeToolTip": "src\\CodeJudge.Application\\DTOs\\ProblemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T09:48:37.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateSubmissionValidator.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\Validation\\CreateSubmissionValidator.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Application\\Validation\\CreateSubmissionValidator.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\Validation\\CreateSubmissionValidator.cs",
+              "RelativeToolTip": "src\\CodeJudge.Application\\Validation\\CreateSubmissionValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T09:46:51.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Problem.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Domain\\Entities\\Problem.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Domain\\Entities\\Problem.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Domain\\Entities\\Problem.cs",
+              "RelativeToolTip": "src\\CodeJudge.Domain\\Entities\\Problem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T09:48:57.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProblemService.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\Services\\ProblemService.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Application\\Services\\ProblemService.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\Services\\ProblemService.cs",
+              "RelativeToolTip": "src\\CodeJudge.Application\\Services\\ProblemService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwD4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T09:49:22.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SubmissionsController.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Controllers\\SubmissionsController.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\Controllers\\SubmissionsController.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Controllers\\SubmissionsController.cs",
+              "RelativeToolTip": "src\\CodeJudge.API\\Controllers\\SubmissionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:16:33.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProblemsController.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Controllers\\ProblemsController.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\Controllers\\ProblemsController.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Controllers\\ProblemsController.cs",
+              "RelativeToolTip": "src\\CodeJudge.API\\Controllers\\ProblemsController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:16:32.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "src\\CodeJudge.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T06:17:24.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JudgeController.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Controllers\\JudgeController.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\Controllers\\JudgeController.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Controllers\\JudgeController.cs",
+              "RelativeToolTip": "src\\CodeJudge.API\\Controllers\\JudgeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T02:59:20.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthExtensions.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Extensions\\AuthExtensions.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\Extensions\\AuthExtensions.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Extensions\\AuthExtensions.cs",
+              "RelativeToolTip": "src\\CodeJudge.API\\Extensions\\AuthExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T06:17:32.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SwaggerExtensions.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Extensions\\SwaggerExtensions.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\Extensions\\SwaggerExtensions.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Extensions\\SwaggerExtensions.cs",
+              "RelativeToolTip": "src\\CodeJudge.API\\Extensions\\SwaggerExtensions.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T06:09:18.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TestCasesController.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Controllers\\TestCasesController.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\Controllers\\TestCasesController.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Controllers\\TestCasesController.cs",
+              "RelativeToolTip": "src\\CodeJudge.API\\Controllers\\TestCasesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T11:05:21.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "JudgeBackgroundService.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\JudgeBackgroundService.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\JudgeBackgroundService.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\JudgeBackgroundService.cs",
+              "RelativeToolTip": "src\\CodeJudge.API\\JudgeBackgroundService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T06:18:25.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SubmissionDto.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\DTOs\\SubmissionDto.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Application\\DTOs\\SubmissionDto.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\DTOs\\SubmissionDto.cs",
+              "RelativeToolTip": "src\\CodeJudge.Application\\DTOs\\SubmissionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T10:13:29.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "InMemoryJudgeQueue.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\InMemoryJudgeQueue.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\InMemoryJudgeQueue.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\InMemoryJudgeQueue.cs",
+              "RelativeToolTip": "src\\CodeJudge.API\\InMemoryJudgeQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T06:18:28.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\CodeJudge.API\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T06:17:28.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CodeJudge.API.http",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\CodeJudge.API.http",
+              "RelativeDocumentMoniker": "src\\CodeJudge.API\\CodeJudge.API.http",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.API\\CodeJudge.API.http",
+              "RelativeToolTip": "src\\CodeJudge.API\\CodeJudge.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-26T06:15:15.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SubmissionConfiguration.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Persistence\\SqlServer\\Configurations\\SubmissionConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Infrastructure\\Persistence\\SqlServer\\Configurations\\SubmissionConfiguration.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Persistence\\SqlServer\\Configurations\\SubmissionConfiguration.cs",
+              "RelativeToolTip": "src\\CodeJudge.Infrastructure\\Persistence\\SqlServer\\Configurations\\SubmissionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:59:08.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProblemStatus.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Domain\\Enums\\ProblemStatus.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Domain\\Enums\\ProblemStatus.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Domain\\Enums\\ProblemStatus.cs",
+              "RelativeToolTip": "src\\CodeJudge.Domain\\Enums\\ProblemStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:56:22.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProblemRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Repositories\\SqlServer\\ProblemRepository.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Infrastructure\\Repositories\\SqlServer\\ProblemRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Repositories\\SqlServer\\ProblemRepository.cs",
+              "RelativeToolTip": "src\\CodeJudge.Infrastructure\\Repositories\\SqlServer\\ProblemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:55:35.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProblemConfiguration.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Persistence\\SqlServer\\Configurations\\ProblemConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Infrastructure\\Persistence\\SqlServer\\Configurations\\ProblemConfiguration.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Persistence\\SqlServer\\Configurations\\ProblemConfiguration.cs",
+              "RelativeToolTip": "src\\CodeJudge.Infrastructure\\Persistence\\SqlServer\\Configurations\\ProblemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:54:53.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SubmissionStatus.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Domain\\Enums\\SubmissionStatus.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Domain\\Enums\\SubmissionStatus.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Domain\\Enums\\SubmissionStatus.cs",
+              "RelativeToolTip": "src\\CodeJudge.Domain\\Enums\\SubmissionStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:59:22.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Application\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Application\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\CodeJudge.Application\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:19:03.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SubmissionJudgedDomainEvent.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Domain\\Events\\SubmissionJudgedDomainEvent.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Domain\\Events\\SubmissionJudgedDomainEvent.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Domain\\Events\\SubmissionJudgedDomainEvent.cs",
+              "RelativeToolTip": "src\\CodeJudge.Domain\\Events\\SubmissionJudgedDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:17:08.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SubmissionCreatedDomainEvent.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Domain\\Events\\SubmissionCreatedDomainEvent.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Domain\\Events\\SubmissionCreatedDomainEvent.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Domain\\Events\\SubmissionCreatedDomainEvent.cs",
+              "RelativeToolTip": "src\\CodeJudge.Domain\\Events\\SubmissionCreatedDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:17:07.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ExecutionLogDocument.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Persistence\\Mongo\\Documents\\ExecutionLogDocument.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Infrastructure\\Persistence\\Mongo\\Documents\\ExecutionLogDocument.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Persistence\\Mongo\\Documents\\ExecutionLogDocument.cs",
+              "RelativeToolTip": "src\\CodeJudge.Infrastructure\\Persistence\\Mongo\\Documents\\ExecutionLogDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:17:02.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "JudgeResultRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Repositories\\Mongo\\JudgeResultRepository.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Infrastructure\\Repositories\\Mongo\\JudgeResultRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Repositories\\Mongo\\JudgeResultRepository.cs",
+              "RelativeToolTip": "src\\CodeJudge.Infrastructure\\Repositories\\Mongo\\JudgeResultRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:16:55.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ExecutionLogRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Repositories\\Mongo\\ExecutionLogRepository.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Infrastructure\\Repositories\\Mongo\\ExecutionLogRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Repositories\\Mongo\\ExecutionLogRepository.cs",
+              "RelativeToolTip": "src\\CodeJudge.Infrastructure\\Repositories\\Mongo\\ExecutionLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:16:52.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SubmissionRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Repositories\\Mongo\\SubmissionRepository.cs",
+              "RelativeDocumentMoniker": "src\\CodeJudge.Infrastructure\\Repositories\\Mongo\\SubmissionRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\code-judge-service\\src\\CodeJudge.Infrastructure\\Repositories\\Mongo\\SubmissionRepository.cs",
+              "RelativeToolTip": "src\\CodeJudge.Infrastructure\\Repositories\\Mongo\\SubmissionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T03:16:43.802Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+version: "3.9"
+
+services:
+  frontend:
+    build: ./frontend
+    container_name: itsp-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api-gateway
+    networks:
+      - itsp-network
+
+  api-gateway:
+    build: ./api-gateway
+    container_name: itsp-api-gateway
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    depends_on:
+      - auth-service
+      - user-service
+      - content-service
+    networks:
+      - itsp-network
+
+  auth-service:
+    build: ./services/auth-service
+    container_name: itsp-auth-service
+    ports:
+      - "8001:8001"
+    env_file:
+      - .env
+    networks:
+      - itsp-network
+
+  user-service:
+    build: ./services/user-service
+    container_name: itsp-user-service
+    ports:
+      - "8002:8002"
+    env_file:
+      - .env
+    networks:
+      - itsp-network
+
+  content-service:
+    build: ./services/content-service
+    container_name: itsp-content-service
+    ports:
+      - "8003:8003"
+    env_file:
+      - .env
+    networks:
+      - itsp-network
+
+  code-judge-service:
+    build: ./services/code-judge-service
+    container_name: itsp-code-judge-service
+    ports:
+      - "8004:8004"
+    env_file:
+      - .env
+    networks:
+      - itsp-network
+
+  notification-service:
+    build: ./services/notification-service
+    container_name: itsp-notification-service
+    ports:
+      - "8005:8005"
+    env_file:
+      - .env
+    depends_on:
+      - message-broker
+    networks:
+      - itsp-network
+
+  message-broker:
+    image: rabbitmq:3-management
+    container_name: itsp-rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - itsp-network
+
+networks:
+  itsp-network:
+    driver: bridge

@@ -1,0 +1,47 @@
+version: '3.9'
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: content-mongo
+    ports:
+      - "27018:27017"
+    volumes:
+      - content_mongo_data:/data/db
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: content-rabbitmq
+    ports:
+      - "5676:5672"
+      - "15676:15672"
+
+  content-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: content-api
+    depends_on:
+      - mongo
+      - rabbitmq
+    environment:
+      PORT: 5005
+      NODE_ENV: development
+      MONGO_URI: mongodb://mongo:27017/content_service
+      BROKER_DRIVER: rabbitmq
+      RABBIT_URL: amqp://rabbitmq:5672
+      RABBIT_EXCHANGE: events
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      GROQ_API_KEY: ${GROQ_API_KEY}
+      GROQ_MODEL: llama-3.3-70b-versatile
+      CLOUDINARY_CLOUD_NAME: ${CLOUDINARY_CLOUD_NAME}
+      CLOUDINARY_API_KEY: ${CLOUDINARY_API_KEY}
+      CLOUDINARY_API_SECRET: ${CLOUDINARY_API_SECRET}
+      CLOUDINARY_FOLDER: it-social/posts
+      UPLOAD_MAX_FILE_SIZE_MB: 30
+      UPLOAD_ENABLE_STRICT_MIME_CHECK: "false"
+    ports:
+      - "5005:5005"
+
+volumes:
+  content_mongo_data:

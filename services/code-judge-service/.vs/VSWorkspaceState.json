@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\CodeJudge.Infrastructure",
+    "\\src\\CodeJudge.Infrastructure\\Persistence\\SqlServer",
+    "\\src\\CodeJudge.Infrastructure\\Persistence\\SqlServer\\Configurations",
+    "\\src\\CodeJudge.Infrastructure\\Repositories",
+    "\\src\\CodeJudge.Infrastructure\\Repositories\\Mongo",
+    "\\src\\CodeJudge.Infrastructure\\Repositories\\SqlServer",
+    "\\src\\CodeJudge.Infrastructure\\Runners",
+    "\\src\\CodeJudge.Infrastructure\\Runners\\Models"
+  ],
+  "SelectedNode": "\\src\\CodeJudge.Infrastructure\\Persistence",
+  "PreviewInSolutionExplorer": false
+}

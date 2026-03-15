@@ -1,0 +1,245 @@
+version: '3.9'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: services-rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - services-network
+
+  mailhog:
+    image: mailhog/mailhog
+    container_name: services-mailhog
+    ports:
+      - "1026:1025"
+      - "8026:8025"
+    networks:
+      - services-network
+
+  auth-sql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: auth-sql
+    environment:
+      SA_PASSWORD: "Hiu123@123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1434:1433"
+    volumes:
+      - auth_sql_data:/var/opt/mssql
+    networks:
+      - services-network
+
+  user-sql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: user-sql
+    environment:
+      SA_PASSWORD: "Hiu123@123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - user_sql_data:/var/opt/mssql
+    networks:
+      - services-network
+
+  judge-sql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: judge-sql
+    environment:
+      SA_PASSWORD: "Hiu123@123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1435:1433"
+    volumes:
+      - judge_sql_data:/var/opt/mssql
+    networks:
+      - services-network
+
+  chat-mongo:
+    image: mongo:7
+    container_name: chat-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - chat_mongo_data:/data/db
+    networks:
+      - services-network
+
+  content-mongo:
+    image: mongo:7
+    container_name: content-mongo
+    ports:
+      - "27018:27017"
+    volumes:
+      - content_mongo_data:/data/db
+    networks:
+      - services-network
+
+  notification-mongo:
+    image: mongo:7
+    container_name: notification-mongo
+    ports:
+      - "27019:27017"
+    volumes:
+      - notification_mongo_data:/data/db
+    networks:
+      - services-network
+
+  auth-api:
+    build:
+      context: ./auth-service
+      dockerfile: src/Auth.API/Dockerfile
+    container_name: auth-api
+    depends_on:
+      - auth-sql
+      - rabbitmq
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__DefaultConnection: "Server=auth-sql;Database=AuthDB;User Id=sa;Password=Hiu123@123;TrustServerCertificate=True;Encrypt=True"
+      RabbitMq__Host: "rabbitmq"
+      RabbitMq__Port: "5672"
+      RabbitMq__Username: "guest"
+      RabbitMq__Password: "guest"
+      RabbitMq__VirtualHost: "/"
+    ports:
+      - "5001:8080"
+    networks:
+      - services-network
+
+  user-api:
+    build:
+      context: ./user-service
+      dockerfile: src/User.API/Dockerfile
+    container_name: user-api
+    depends_on:
+      - user-sql
+      - rabbitmq
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__DefaultConnection: "Server=user-sql;Database=UserDB;User Id=sa;Password=Hiu123@123;TrustServerCertificate=True;Encrypt=True"
+      RabbitMq__Host: "rabbitmq"
+      RabbitMq__Port: "5672"
+      RabbitMq__Username: "guest"
+      RabbitMq__Password: "guest"
+      RabbitMq__VirtualHost: "/"
+    ports:
+      - "5002:8080"
+    networks:
+      - services-network
+
+  judge-api:
+    build:
+      context: ./code-judge-service
+      dockerfile: src/CodeJudge.API/Dockerfile
+    container_name: judge-api
+    depends_on:
+      - judge-sql
+      - rabbitmq
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=judge-sql;Database=JudgeDB;User Id=sa;Password=Hiu123@123;TrustServerCertificate=True;Encrypt=True"
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "http://+:8080"
+      RabbitMq__Host: "rabbitmq"
+      RabbitMq__Port: "5672"
+      RabbitMq__Username: "guest"
+      RabbitMq__Password: "guest"
+      RabbitMq__VirtualHost: "/"
+    ports:
+      - "5003:8080"
+    networks:
+      - services-network
+
+  chat-api:
+    build:
+      context: ./chat-service
+      dockerfile: Dockerfile
+    container_name: chat-api
+    depends_on:
+      - chat-mongo
+      - rabbitmq
+    environment:
+      PORT: 5004
+      MONGO_URI: mongodb://chat-mongo:27017/chatdb
+      RABBIT_URL: amqp://guest:guest@rabbitmq:5672
+      RABBIT_EXCHANGE: events
+    ports:
+      - "5004:5004"
+    networks:
+      - services-network
+
+  content-api:
+    build:
+      context: ./content-service
+      dockerfile: Dockerfile
+    container_name: content-api
+    depends_on:
+      - content-mongo
+      - rabbitmq
+    environment:
+      PORT: 5005
+      NODE_ENV: development
+      MONGO_URI: mongodb://content-mongo:27017/content_service
+      BROKER_DRIVER: rabbitmq
+      RABBIT_URL: amqp://guest:guest@rabbitmq:5672
+      RABBIT_EXCHANGE: events
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      GROQ_API_KEY: ${GROQ_API_KEY}
+      GROQ_MODEL: llama-3.3-70b-versatile
+      CLOUDINARY_CLOUD_NAME: ${CLOUDINARY_CLOUD_NAME}
+      CLOUDINARY_API_KEY: ${CLOUDINARY_API_KEY}
+      CLOUDINARY_API_SECRET: ${CLOUDINARY_API_SECRET}
+      CLOUDINARY_FOLDER: it-social/posts
+      UPLOAD_MAX_FILE_SIZE_MB: 30
+      UPLOAD_ENABLE_STRICT_MIME_CHECK: "false"
+    ports:
+      - "5005:5005"
+    networks:
+      - services-network
+
+  notification-api:
+    build:
+      context: ./notification-service
+      dockerfile: Dockerfile
+    container_name: notification-api
+    depends_on:
+      - notification-mongo
+      - rabbitmq
+      - mailhog
+      - user-api
+    environment:
+      NODE_ENV: development
+      PORT: 5010
+      MONGO_URI: mongodb://notification-mongo:27017/notification_service
+      RABBIT_URL: amqp://guest:guest@rabbitmq:5672
+      RABBIT_EXCHANGE: events
+      SERVICE_NAME: notification-service
+      SMTP_HOST: mailhog
+      SMTP_PORT: 1025
+      SMTP_USER: ""
+      SMTP_PASS: ""
+      MAIL_FROM: noreply@tdmu.local
+      USER_SERVICE_URL: http://user-api:8080
+      WS_ENABLED: "true"
+      PUSH_ENABLED: "false"
+    ports:
+      - "5010:5010"
+    networks:
+      - services-network
+
+volumes:
+  auth_sql_data:
+  user_sql_data:
+  judge_sql_data:
+  chat_mongo_data:
+  content_mongo_data:
+  notification_mongo_data:
+
+networks:
+  services-network:
+    driver: bridge

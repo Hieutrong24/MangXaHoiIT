@@ -1,0 +1,52 @@
+version: '3.9'
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: chat-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - chat_mongo_data:/data/db
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: chat-rabbitmq
+    restart: unless-stopped
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    ports:
+      - "5675:5672"
+      - "15675:15672"
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "check_port_connectivity"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  chat-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chat-api
+    restart: unless-stopped
+    depends_on:
+      - mongo
+      - rabbitmq
+    env_file:
+      - .env
+    environment:
+      PORT: 5004
+      NODE_ENV: development
+      CORS_ORIGIN: "*"
+      MONGO_URI: mongodb://mongo:27017/chat_service
+      RABBIT_URL: amqp://guest:guest@rabbitmq:5672
+      RABBIT_EXCHANGE: events
+      RABBIT_PREFETCH: 20
+    ports:
+      - "5004:5004"
+
+volumes:
+  chat_mongo_data:

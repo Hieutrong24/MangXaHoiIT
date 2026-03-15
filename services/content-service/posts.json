@@ -1,0 +1,119 @@
+[
+  {
+    "_id": { "$oid": "66f000000000000000000001" },
+    "author": { "$oid": "65f000000000000000000001" },
+    "content": "Nguyễn Văn A (IT2022001) chia sẻ: bắt đầu dự án microservice cho khoa CNTT.",
+    "images": ["https://cdn.local/posts/user1-1.jpg"],
+    "videos": [],
+    "others": [],
+    "shares": [],
+    "likes": [
+      { "$oid": "65f000000000000000000002" },
+      { "$oid": "65f000000000000000000003" }
+    ],
+    "comments": [
+      {
+        "user": { "$oid": "65f000000000000000000002" },
+        "name": "Trần Thị B",
+        "avatar": "https://cdn.local/avatars/user2.png",
+        "text": "Hay quá bạn ơi, mình cũng đang làm tương tự!",
+        "createdAt": { "$date": "2026-02-24T03:00:00.000Z" }
+      }
+    ],
+    "createdAt": { "$date": "2026-02-21T00:00:00.000Z" },
+    "updatedAt": { "$date": "2026-02-26T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "66f000000000000000000002" },
+    "author": { "$oid": "65f000000000000000000002" },
+    "content": "Trần Thị B (IT2022002) đăng: ghi chú môn Hệ thống thông tin + checklist ôn tập.",
+    "images": [],
+    "videos": [],
+    "others": ["https://cdn.local/files/is-checklist.pdf"],
+    "shares": [{ "$oid": "66f000000000000000000001" }],
+    "likes": [
+      { "$oid": "65f000000000000000000001" },
+      { "$oid": "65f000000000000000000005" }
+    ],
+    "comments": [
+      {
+        "user": { "$oid": "65f000000000000000000005" },
+        "name": "Võ Thị E",
+        "avatar": "https://cdn.local/avatars/user5.png",
+        "text": "Cảm ơn bạn, đúng thứ mình cần 👍",
+        "createdAt": { "$date": "2026-02-25T08:00:00.000Z" }
+      }
+    ],
+    "createdAt": { "$date": "2026-02-22T00:00:00.000Z" },
+    "updatedAt": { "$date": "2026-02-26T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "66f000000000000000000003" },
+    "author": { "$oid": "65f000000000000000000003" },
+    "content": "Lê Văn C (IT2022003) chia sẻ: tips học Khoa học máy tính + cách tránh WA hidden tests 😅",
+    "images": ["https://cdn.local/posts/user3-1.jpg"],
+    "videos": [],
+    "others": [],
+    "shares": [],
+    "likes": [
+      { "$oid": "65f000000000000000000002" }
+    ],
+    "comments": [
+      {
+        "user": { "$oid": "65f000000000000000000001" },
+        "name": "Nguyễn Văn A",
+        "avatar": "https://cdn.local/avatars/user1.png",
+        "text": "Đoạn hidden tests đúng ám ảnh luôn 😂",
+        "createdAt": { "$date": "2026-02-26T02:30:00.000Z" }
+      }
+    ],
+    "createdAt": { "$date": "2026-02-23T00:00:00.000Z" },
+    "updatedAt": { "$date": "2026-02-26T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "66f000000000000000000004" },
+    "author": { "$oid": "65f000000000000000000004" },
+    "content": "PGS.TS Phạm D (GV000004) thông báo seminar tuần này tại khoa CNTT.",
+    "images": [],
+    "videos": ["https://cdn.local/videos/seminar-week.mp4"],
+    "others": [],
+    "shares": [],
+    "likes": [
+      { "$oid": "65f000000000000000000002" }
+    ],
+    "comments": [
+      {
+        "user": { "$oid": "65f000000000000000000002" },
+        "name": "Trần Thị B",
+        "avatar": "https://cdn.local/avatars/user2.png",
+        "text": "Dạ em chào thầy ạ, em sẽ tham gia đầy đủ.",
+        "createdAt": { "$date": "2026-02-25T01:00:00.000Z" }
+      }
+    ],
+    "createdAt": { "$date": "2026-02-24T00:00:00.000Z" },
+    "updatedAt": { "$date": "2026-02-26T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "66f000000000000000000005" },
+    "author": { "$oid": "65f000000000000000000005" },
+    "content": "Võ Thị E (AL2018005) chia sẻ kinh nghiệm phỏng vấn + CV checklist cho sinh viên.",
+    "images": [],
+    "videos": [],
+    "others": ["https://cdn.local/files/interview-checklist.pdf"],
+    "shares": [],
+    "likes": [
+      { "$oid": "65f000000000000000000002" }
+    ],
+    "comments": [
+      {
+        "user": { "$oid": "65f000000000000000000001" },
+        "name": "Nguyễn Văn A",
+        "avatar": "https://cdn.local/avatars/user1.png",
+        "text": "Em cảm ơn chị nhiều ạ!",
+        "createdAt": { "$date": "2026-02-26T04:00:00.000Z" }
+      }
+    ],
+    "createdAt": { "$date": "2026-02-25T00:00:00.000Z" },
+    "updatedAt": { "$date": "2026-02-26T00:00:00.000Z" }
+  }
+]

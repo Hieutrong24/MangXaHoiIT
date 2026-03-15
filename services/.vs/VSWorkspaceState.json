@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\chat-service",
+    "\\chat-service\\src\\modules",
+    "\\chat-service\\src\\modules\\chat",
+    "\\code-judge-service",
+    "\\code-judge-service\\code-judge-service",
+    "\\user-service",
+    "\\user-service\\src",
+    "\\user-service\\src\\User.Application",
+    "\\user-service\\src\\User.Application\\Services"
+  ],
+  "SelectedNode": "\\user-service\\src\\User.Application\\Services\\UserService.cs",
+  "PreviewInSolutionExplorer": false
+}

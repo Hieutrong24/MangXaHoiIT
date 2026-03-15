@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Auth.API",
+    "\\src\\Auth.Application",
+    "\\src\\Auth.Domain",
+    "\\src\\Auth.Infrastructure",
+    "\\src\\Auth.Infrastructure\\Persistence",
+    "\\src\\Auth.Infrastructure\\Persistence\\Configurations",
+    "\\src\\Auth.Infrastructure\\Repositories",
+    "\\src\\Auth.Infrastructure\\Security"
+  ],
+  "SelectedNode": "\\src\\Auth.Infrastructure\\Persistence\\Configurations\\AuthAccountConfiguration.cs",
+  "PreviewInSolutionExplorer": false
+}
