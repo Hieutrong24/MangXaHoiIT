@@ -1,4 +1,9 @@
-.env
-api-gateway/.env frontend/.env
-node_modules
-    
+# Visual Studio
+.vs/
+
+# Build output
+bin/
+obj/
+
+# Local config
+appsettings.Development.json
