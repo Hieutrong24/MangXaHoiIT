@@ -1,0 +1,30 @@
+namespace CodeJudge.Application.DTOs;
+
+public sealed record ProblemDto(
+    Guid ProblemId,
+    string Title,
+    string Slug,
+    string Statement,
+    byte Difficulty,
+    int TimeLimitMs,
+    int MemoryLimitMB,
+    bool IsPublic,
+    byte Status,
+    DateTime CreatedAt,
+    DateTime UpdatedAt,
+    string? ProblemType = null,
+    string? Topic = null,
+    string? SkillTag = null,
+    int? EstimatedMinutes = null,
+    int? PointsReward = null,
+    int? MaxScore = null,
+    string? InputFormat = null,
+    string? OutputFormat = null,
+    string? ConstraintsText = null,
+    string? HintText = null,
+    string? StarterCode = null,
+    string? EditorialText = null,
+    bool? AllowCustomInput = null,
+    bool? AllowPartialScoring = null,
+    bool? IsFeatured = null
+);

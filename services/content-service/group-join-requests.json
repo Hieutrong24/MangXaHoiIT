@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "712a514e85e733da9db79964",
+    "groupId": "16c8314cd4c0df5b2d185025",
+    "userId": "u2",
+    "note": "let me in",
+    "status": "approved",
+    "reviewedBy": "u1",
+    "reviewedAt": "2026-04-06T17:41:45.391Z",
+    "createdAt": "2026-04-06T17:41:45.390Z",
+    "updatedAt": "2026-04-06T17:41:45.391Z"
+  }
+]

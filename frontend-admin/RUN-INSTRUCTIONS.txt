@@ -1,0 +1,9 @@
+Run steps (Windows PowerShell):
+1. cd frontend-admin
+2. Remove-Item -Recurse -Force node_modules, dist -ErrorAction SilentlyContinue
+3. npm install
+4. npm run dev
+
+Notes:
+- Styling now uses src/styles.css and no Tailwind CDN.
+- vite.config.js now only uses React plugin to avoid Tailwind processing errors.

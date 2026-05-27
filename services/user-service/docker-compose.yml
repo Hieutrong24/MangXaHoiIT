@@ -1,0 +1,55 @@
+version: '3.9'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: user-sql
+    environment:
+      SA_PASSWORD: "Hiu123@123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - user_sql_data:/var/opt/mssql
+    networks:
+      - user-network
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: user-rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    ports:
+      - "5673:5672"
+      - "15673:15672"
+    networks:
+      - user-network
+
+  user-api:
+    build:
+      context: .
+      dockerfile: src/User.API/Dockerfile
+    container_name: user-api
+    depends_on:
+      - sqlserver
+      - rabbitmq
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__DefaultConnection: "Server=sqlserver;Database=UserDB;User Id=sa;Password=Hiu123@123;TrustServerCertificate=True;Encrypt=True"
+      RabbitMq__Host: "rabbitmq"
+      RabbitMq__Port: "5672"
+      RabbitMq__Username: "guest"
+      RabbitMq__Password: "guest"
+      RabbitMq__VirtualHost: "/"
+    ports:
+      - "5002:8080"
+    networks:
+      - user-network
+
+volumes:
+  user_sql_data:
+
+networks:
+  user-network:
+    driver: bridge

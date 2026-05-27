@@ -1,0 +1,62 @@
+[
+  {
+    "_id": { "$oid": "88f000000000000000000001" },
+    "chatId": "chat:dm:11111111-1111-1111-1111-111111111111-22222222-2222-2222-2222-222222222222",
+    "senderId": "11111111-1111-1111-1111-111111111111",
+    "clientMessageId": "cmsg-user1-0001",
+    "type": "text",
+    "content": "Chào B, mình vừa đăng bài về microservice bên content-service đó. Bạn xem thử nhé!",
+    "meta": { "ref": { "service": "content_service", "postId": "66f000000000000000000001" } },
+    "seq": 1,
+    "createdAt": { "$date": "2026-02-26T01:00:00.000Z" },
+    "editedAt": null
+  },
+  {
+    "_id": { "$oid": "88f000000000000000000002" },
+    "chatId": "chat:dm:11111111-1111-1111-1111-111111111111-22222222-2222-2222-2222-222222222222",
+    "senderId": "22222222-2222-2222-2222-222222222222",
+    "clientMessageId": "cmsg-user2-0001",
+    "type": "text",
+    "content": "Ok A, mình vừa like + comment rồi. Checklist môn HTTT bạn cần mình gửi luôn không?",
+    "meta": { "ref": { "service": "content_service", "commentId": "77f000000000000000000001" } },
+    "seq": 2,
+    "createdAt": { "$date": "2026-02-26T01:02:00.000Z" },
+    "editedAt": null
+  },
+  {
+    "_id": { "$oid": "88f000000000000000000003" },
+    "chatId": "chat:dm:22222222-2222-2222-2222-222222222222-44444444-4444-4444-4444-444444444444",
+    "senderId": "22222222-2222-2222-2222-222222222222",
+    "clientMessageId": "cmsg-user2-0002",
+    "type": "text",
+    "content": "Dạ em chào thầy ạ, seminar tuần này thầy tổ chức ở phòng nào để tụi em tham gia ạ?",
+    "meta": { "context": "seminar" },
+    "seq": 1,
+    "createdAt": { "$date": "2026-02-26T02:10:00.000Z" },
+    "editedAt": null
+  },
+  {
+    "_id": { "$oid": "88f000000000000000000004" },
+    "chatId": "chat:dm:22222222-2222-2222-2222-222222222222-44444444-4444-4444-4444-444444444444",
+    "senderId": "44444444-4444-4444-4444-444444444444",
+    "clientMessageId": "cmsg-user4-0001",
+    "type": "system",
+    "content": "Thầy xác nhận: seminar tổ chức tại phòng A-301, 14:00 thứ 6. Vui lòng đến sớm 10 phút.",
+    "meta": { "location": "A-301", "time": "Friday 14:00", "refPostId": "66f000000000000000000004" },
+    "seq": 2,
+    "createdAt": { "$date": "2026-02-26T02:12:00.000Z" },
+    "editedAt": null
+  },
+  {
+    "_id": { "$oid": "88f000000000000000000005" },
+    "chatId": "chat:dm:11111111-1111-1111-1111-111111111111-55555555-5555-5555-5555-555555555555",
+    "senderId": "55555555-5555-5555-5555-555555555555",
+    "clientMessageId": "cmsg-user5-0001",
+    "type": "text",
+    "content": "A ơi, mình thấy bạn hỏi CV/Phỏng vấn. Mình share checklist trong bài này nha.",
+    "meta": { "ref": { "service": "content_service", "postId": "66f000000000000000000005" } },
+    "seq": 1,
+    "createdAt": { "$date": "2026-02-26T03:30:00.000Z" },
+    "editedAt": null
+  }
+]

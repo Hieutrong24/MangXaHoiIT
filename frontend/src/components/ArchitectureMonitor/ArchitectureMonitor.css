@@ -1,0 +1,277 @@
+.architecture-monitor {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 99999;
+  width: min(390px, calc(100vw - 24px));
+  height: min(520px, calc(100vh - 24px));
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, 0.26);
+  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.96);
+  color: #e5edf8;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(18px);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.architecture-monitor.is-collapsed {
+  height: 58px;
+}
+
+.arch-monitor-dragging,
+.arch-monitor-dragging * {
+  cursor: grabbing !important;
+  user-select: none !important;
+}
+
+.arch-monitor-titlebar {
+  display: flex;
+  min-height: 58px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.98), rgba(17, 24, 39, 0.98));
+  cursor: grab;
+}
+
+.arch-monitor-title {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.arch-monitor-subtitle {
+  margin-top: 2px;
+  font-size: 10px;
+  color: #94a3b8;
+}
+
+.arch-monitor-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.arch-monitor-actions button,
+.arch-monitor-filters button,
+.arch-monitor-footer button {
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #dbeafe;
+  padding: 4px 7px;
+  font-size: 10px;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.arch-monitor-actions button:hover,
+.arch-monitor-filters button:hover,
+.arch-monitor-footer button:hover {
+  border-color: rgba(125, 211, 252, 0.5);
+  background: rgba(14, 165, 233, 0.16);
+}
+
+.arch-monitor-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 7px;
+  padding: 10px 12px;
+}
+
+.arch-monitor-stats div {
+  min-width: 0;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 8px;
+  background: rgba(30, 41, 59, 0.76);
+  padding: 7px;
+}
+
+.arch-monitor-stats span {
+  display: block;
+  font-size: 10px;
+  color: #94a3b8;
+}
+
+.arch-monitor-stats strong {
+  display: block;
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 15px;
+  color: #f8fafc;
+}
+
+.arch-monitor-toolbar {
+  display: grid;
+  gap: 8px;
+  padding: 0 12px 10px;
+}
+
+.arch-monitor-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.arch-monitor-filters button.active {
+  border-color: rgba(34, 197, 94, 0.55);
+  background: rgba(34, 197, 94, 0.16);
+  color: #bbf7d0;
+}
+
+.arch-monitor-toolbar input {
+  width: 100%;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 8px;
+  background: rgba(2, 6, 23, 0.5);
+  color: #e2e8f0;
+  font-size: 12px;
+  outline: none;
+  padding: 8px 10px;
+}
+
+.arch-monitor-list {
+  height: 300px;
+  overflow-y: auto;
+  padding: 0 12px 10px;
+}
+
+.arch-monitor-empty {
+  border: 1px dashed rgba(148, 163, 184, 0.22);
+  border-radius: 10px;
+  color: #94a3b8;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 14px;
+}
+
+.arch-log {
+  margin-bottom: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-left-width: 4px;
+  border-radius: 10px;
+  background: rgba(15, 23, 42, 0.78);
+}
+
+.arch-log-success { border-left-color: #22c55e; }
+.arch-log-warning { border-left-color: #eab308; }
+.arch-log-error { border-left-color: #ef4444; }
+.arch-log-realtime { border-left-color: #8b5cf6; }
+
+.arch-log-main {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 8px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  padding: 9px;
+  text-align: left;
+}
+
+.arch-log-icon {
+  display: grid;
+  width: 34px;
+  height: 24px;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 7px;
+  background: rgba(96, 165, 250, 0.14);
+  color: #bfdbfe;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.arch-log-content {
+  min-width: 0;
+  flex: 1;
+}
+
+.arch-log-line,
+.arch-log-meta {
+  display: flex;
+  min-width: 0;
+  gap: 6px;
+}
+
+.arch-log-line strong {
+  flex: 0 0 auto;
+  color: #f8fafc;
+  font-size: 11px;
+}
+
+.arch-log-line span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #dbeafe;
+  font-size: 12px;
+}
+
+.arch-log-meta {
+  margin-top: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #94a3b8;
+  font-size: 10px;
+}
+
+.arch-log-details {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  border-top: 1px solid rgba(148, 163, 184, 0.14);
+  padding: 9px;
+}
+
+.arch-log-details div {
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr);
+  gap: 8px;
+}
+
+.arch-log-details dt {
+  color: #94a3b8;
+  font-size: 10px;
+}
+
+.arch-log-details dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+  color: #e2e8f0;
+  font-size: 11px;
+}
+
+.arch-monitor-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 12px 12px;
+  color: #94a3b8;
+  font-size: 10px;
+}
+
+@media (max-width: 520px) {
+  .architecture-monitor {
+    right: 12px;
+    bottom: 12px;
+    width: calc(100vw - 24px);
+  }
+
+  .arch-monitor-titlebar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,13 @@
+<!-- public/favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.5" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="108" height="108" rx="28" fill="#0b1220"/>
+  <path d="M26 80c14 18 36 26 56 18 12-5 20-15 20-27 0-13-10-20-25-24l-14-3c-9-2-12-5-12-9 0-6 7-11 16-11 10 0 18 4 24 11l13-10C97 16 83 10 67 10 42 10 25 24 25 44c0 14 10 22 26 25l14 3c9 2 12 5 12 9 0 7-8 12-18 12-12 0-22-6-30-16z" fill="url(#g)"/>
+  <text x="64" y="114" text-anchor="middle" font-family="Inter, system-ui, Arial" font-size="14" fill="#dbeafe">sockioIT</text>
+</svg>

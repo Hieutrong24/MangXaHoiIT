@@ -1,0 +1,71 @@
+const express = require("express");
+const { adminController } = require("../controllers/admin.controller");
+const { authMiddleware } = require("../middlewares/auth.middleware");
+
+const router = express.Router();
+router.use(authMiddleware(["admin"]));
+
+router.get("/users", adminController.listUsers);
+router.get("/users/activity-logs", adminController.listUserActivityLogs);
+router.get("/users/activity-dashboard", adminController.getUserActivityDashboard);
+router.get("/users/:userId", adminController.getUser);
+router.patch("/users/:userId/lock", adminController.lockUser);
+router.patch("/users/:userId/unlock", adminController.unlockUser);
+router.delete("/users/:userId", adminController.deleteUser);
+
+router.get("/auth/accounts", adminController.listAuthAccounts);
+router.get("/auth/audit-logs", adminController.listAuthAuditLogs);
+router.get("/auth/accounts/:userId", adminController.getAuthAccount);
+router.put("/auth/accounts/:userId/roles", adminController.updateUserRoles);
+
+router.get("/jobs/dashboard", adminController.getJobsDashboard);
+router.get("/content/dashboard", adminController.getContentDashboard);
+router.get("/content/posts", adminController.listContentPosts);
+router.patch("/content/posts/:postId/moderation", adminController.moderateContentPost);
+router.get("/content/comments", adminController.listContentComments);
+router.delete("/content/comments/:commentId", adminController.deleteContentComment);
+router.get("/content/groups", adminController.listContentGroups);
+router.get("/content/groups/:groupId", adminController.getContentGroup);
+router.get("/content/groups/:groupId/stats", adminController.getContentGroupStats);
+router.delete("/content/groups/:groupId", adminController.deleteContentGroup);
+router.get("/jobs", adminController.listJobs);
+router.post("/jobs", adminController.createJob);
+router.get("/jobs/:jobId", adminController.getJob);
+router.patch("/jobs/:jobId", adminController.updateJob);
+router.delete("/jobs/:jobId", adminController.deleteJob);
+router.get("/jobs/:jobId/applications", adminController.listJobApplications);
+router.get("/job-applications", adminController.listJobApplications);
+router.patch("/job-applications/:applicationId/status", adminController.updateApplicationStatus);
+
+router.get("/code/problems", adminController.listProblems);
+router.post("/code/problems", adminController.createProblem);
+router.get("/code/problems/:problemId", adminController.getProblem);
+router.put("/code/problems/:problemId", adminController.updateProblem);
+router.delete("/code/problems/:problemId", adminController.deleteProblem);
+router.get("/code/problems/:problemId/overview", adminController.getProblemOverview);
+router.get("/code/problems/:problemId/testcases", adminController.listTestCases);
+router.post("/code/problems/:problemId/testcases", adminController.createTestCase);
+router.put("/code/testcases/:testCaseId", adminController.updateTestCase);
+router.delete("/code/testcases/:testCaseId", adminController.deleteTestCase);
+router.get("/code/submissions", adminController.listSubmissions);
+router.get("/code/submissions/:submissionId", adminController.getSubmission);
+router.get("/code/submissions/:submissionId/result", adminController.getSubmissionResult);
+router.post("/code/submissions/:submissionId/rejudge", adminController.rejudgeSubmission);
+router.post("/code/submissions/:submissionId/cancel", adminController.cancelSubmission);
+router.get("/chat/dashboard", adminController.getChatDashboard);
+router.get("/chat/groups", adminController.listChatGroups);
+router.get("/chat/groups/:chatId", adminController.getChatGroup);
+router.get("/chat/groups/:chatId/messages", adminController.listChatMessages);
+router.delete("/chat/groups/:chatId", adminController.deleteChatGroup);
+router.delete("/chat/messages/:messageId", adminController.deleteChatMessage);
+router.get("/notifications/dashboard", adminController.getNotificationsDashboard);
+router.get("/notifications", adminController.listAdminNotifications);
+router.post("/notifications/broadcast", adminController.broadcastNotification);
+router.get("/learning/dashboard", adminController.getLearningDashboard);
+router.get("/learning/paths", adminController.listLearningPaths);
+router.get("/learning/lessons", adminController.listLearningLessons);
+router.get("/learning/quizzes", adminController.listLearningQuizzes);
+router.get("/learning/challenges", adminController.listLearningChallenges);
+router.get("/learning/badges", adminController.listLearningBadges);
+
+module.exports = { adminRoutes: router };

@@ -1,0 +1,4 @@
+@CodeJudge.API_HostAddress = http://localhost:32792
+
+GET {{CodeJudge.API_HostAddress}}/weatherforecast/
+Accept: application/json

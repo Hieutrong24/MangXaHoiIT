@@ -1,0 +1,37 @@
+module.exports = {
+  CHANNELS: {
+    IN_APP: 'inapp',
+    EMAIL: 'email',
+    PUSH: 'push',
+    REALTIME: 'realtime',
+  },
+  NOTIFICATION_TYPES: {
+    COMMENT_CREATED: 'comment_created',
+    FRIEND_REQUEST_SENT: 'friend_request_sent',
+    FRIEND_REQUEST_ACCEPTED: 'friend_request_accepted',
+    MESSAGE_SENT: 'message_sent',
+    CODE_RESULT: 'code_result',
+    GROUP_INVITE: 'group_invite',
+    GROUP_INVITE_ACCEPTED: 'group_invite_accepted',
+    GROUP_INVITE_REJECTED: 'group_invite_rejected',
+    GROUP_POST_PENDING: 'group_post_pending',
+    GROUP_POST_APPROVED: 'group_post_approved',
+    GROUP_POST_REJECTED: 'group_post_rejected',
+    JOB_CREATED: 'job_created',
+    JOB_APPLICATION_CREATED: 'job_application_created',
+    JOB_APPLICATION_STATUS_CHANGED: 'job_application_status_changed',
+    SYSTEM: 'system',
+  },
+  DELIVERY_STATUS: {
+    PENDING: 'pending',
+    SUCCESS: 'success',
+    FAILED: 'failed',
+    SKIPPED: 'skipped',
+  },
+  NOTIFICATION_STATUS: {
+    PENDING: 'pending',
+    DELIVERED: 'delivered',
+    PARTIAL: 'partial',
+    FAILED: 'failed',
+  },
+};

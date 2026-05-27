@@ -1,0 +1,1193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.domain\\entities\\authaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.domain\\entities\\authaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\usecases\\registerusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\usecases\\registerusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\persistence\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\persistence\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\persistence\\configurations\\authaccountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\persistence\\configurations\\authaccountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\repositories\\authaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\repositories\\authaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.api\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.api\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.api\\extensions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.api\\extensions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.api\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.api\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.api\\middlewares\\requestcontextmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.api\\middlewares\\requestcontextmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\outbox\\outboxeventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\outbox\\outboxeventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\outbox\\outboxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\outbox\\outboxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\security\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\security\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\repositories\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\repositories\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\repositories\\loginauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\repositories\\loginauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\persistence\\configurations\\outboxeventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\persistence\\configurations\\outboxeventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\persistence\\configurations\\loginauditconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\persistence\\configurations\\loginauditconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\persistence\\configurations\\refreshtokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\persistence\\configurations\\refreshtokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\persistence\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\persistence\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\persistence\\configurations\\authroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\persistence\\configurations\\authroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\persistence\\outboxevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\persistence\\outboxevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\configurations\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\configurations\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\usecases\\refreshtokenusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\usecases\\refreshtokenusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\dtos\\refreshtokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\dtos\\refreshtokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\dtos\\refreshtokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\dtos\\refreshtokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\usecases\\logoutusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\usecases\\logoutusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\usecases\\loginusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\usecases\\loginusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\interfaces\\repositories\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\interfaces\\repositories\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\interfaces\\repositories\\iloginauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\interfaces\\repositories\\iloginauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\interfaces\\repositories\\iauthaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\interfaces\\repositories\\iauthaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\interfaces\\ioutboxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\interfaces\\ioutboxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.domain\\entities\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.domain\\entities\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.domain\\entities\\loginauditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.domain\\entities\\loginauditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.domain\\entities\\authuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.domain\\entities\\authuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.domain\\entities\\authrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.domain\\entities\\authrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.domain\\events\\userloggedinevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.domain\\events\\userloggedinevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.domain\\valueobjects\\passwordhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.domain\\valueobjects\\passwordhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.domain\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.domain\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.domain\\enums\\accountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.domain\\enums\\accountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Security\\JwtTokenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:auth-service\\src\\Auth.Infrastructure\\Security\\JwtTokenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Middlewares\\ServiceCollectionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:auth-service\\src\\Auth.API\\Middlewares\\ServiceCollectionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Filters\\ValidationFilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:auth-service\\src\\Auth.API\\Filters\\ValidationFilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Extensions\\ExceptionMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:auth-service\\src\\Auth.API\\Extensions\\ExceptionMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:auth-service\\src\\Auth.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\usecases\\getaccountusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\usecases\\getaccountusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\dtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\dtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\interfaces\\igetaccountusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\interfaces\\igetaccountusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\dtos\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\dtos\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\interfaces\\iregisterusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\interfaces\\iregisterusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\interfaces\\iloginusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\interfaces\\iloginusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.api\\middlewares\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.api\\middlewares\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.infrastructure\\persistence\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.infrastructure\\persistence\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\tests\\auth.integrationtests\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\tests\\auth.integrationtests\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\dtos\\updateuserprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\dtos\\updateuserprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|d:\\workspace\\document web\\it-social-platform\\services\\auth-service\\auth-service\\src\\auth.application\\dtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8A8182-8149-4D80-893F-675DF225FD14}|auth-service\\auth-service.csproj|solutionrelative:auth-service\\src\\auth.application\\dtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1880786602:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "auth-service\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "auth-service\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:50:55.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Security\\PasswordHasher.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Security\\PasswordHasher.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Security\\PasswordHasher.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAwFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:48:18.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\appsettings.json",
+              "RelativeDocumentMoniker": "auth-service\\appsettings.json",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\appsettings.json",
+              "RelativeToolTip": "auth-service\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-17T13:17:08.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Program.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.API\\Program.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Program.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:52:07.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\Dockerfile",
+              "RelativeDocumentMoniker": "auth-service\\Dockerfile",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\Dockerfile",
+              "RelativeToolTip": "auth-service\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-19T03:05:29.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:48:01.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Persistence\\AuthDbContext.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\AuthDbContext.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Persistence\\AuthDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:49:22.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterUseCase.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\UseCases\\RegisterUseCase.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\UseCases\\RegisterUseCase.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\UseCases\\RegisterUseCase.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\UseCases\\RegisterUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:47:32.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthAccount.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\AuthAccount.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Domain\\Entities\\AuthAccount.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\AuthAccount.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Domain\\Entities\\AuthAccount.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:21:48.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthAccountConfiguration.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\AuthAccountConfiguration.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\AuthAccountConfiguration.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\AuthAccountConfiguration.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\AuthAccountConfiguration.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwEwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:31.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthAccountRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Repositories\\AuthAccountRepository.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Repositories\\AuthAccountRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Repositories\\AuthAccountRepository.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Repositories\\AuthAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:45.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.API\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.API\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:20:18.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Extensions\\ApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.API\\Extensions\\ApplicationBuilderExtensions.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Extensions\\ApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.API\\Extensions\\ApplicationBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:20:15.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GlobalExceptionFilter.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Filters\\GlobalExceptionFilter.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.API\\Filters\\GlobalExceptionFilter.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Filters\\GlobalExceptionFilter.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.API\\Filters\\GlobalExceptionFilter.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA2wCMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:20:23.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T01:58:44.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RequestContextMiddleware.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Middlewares\\RequestContextMiddleware.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.API\\Middlewares\\RequestContextMiddleware.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Middlewares\\RequestContextMiddleware.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.API\\Middlewares\\RequestContextMiddleware.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:20:39.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:57.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OutboxEventPublisher.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Outbox\\OutboxEventPublisher.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Outbox\\OutboxEventPublisher.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Outbox\\OutboxEventPublisher.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Outbox\\OutboxEventPublisher.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:25.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OutboxService.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Outbox\\OutboxService.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Outbox\\OutboxService.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Outbox\\OutboxService.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Outbox\\OutboxService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:59:21.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserRoleRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Repositories\\UserRoleRepository.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Repositories\\UserRoleRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Repositories\\UserRoleRepository.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Repositories\\UserRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:49.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:48.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginAuditRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Repositories\\LoginAuditRepository.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Repositories\\LoginAuditRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Repositories\\LoginAuditRepository.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Repositories\\LoginAuditRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:46.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OutboxEventConfiguration.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\OutboxEventConfiguration.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\OutboxEventConfiguration.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\OutboxEventConfiguration.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\OutboxEventConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:57:08.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Security\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Security\\JwtTokenGenerator.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Security\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Security\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:53.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RefreshTokenConfiguration.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\RefreshTokenConfiguration.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\RefreshTokenConfiguration.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\RefreshTokenConfiguration.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\RefreshTokenConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:36.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserRoleConfiguration.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\UserRoleConfiguration.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\UserRoleConfiguration.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\UserRoleConfiguration.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\UserRoleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:55:42.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuthRoleConfiguration.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\AuthRoleConfiguration.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\AuthRoleConfiguration.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\AuthRoleConfiguration.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\AuthRoleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:32.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginAuditConfiguration.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\LoginAuditConfiguration.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\LoginAuditConfiguration.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\LoginAuditConfiguration.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Persistence\\Configurations\\LoginAuditConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:34.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OutboxEvent.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\OutboxEvent.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Persistence\\OutboxEvent.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\OutboxEvent.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Persistence\\OutboxEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:31:16.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Configurations\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Configurations\\JwtSettings.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Configurations\\JwtSettings.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Configurations\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:50:18.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RefreshTokenUseCase.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\UseCases\\RefreshTokenUseCase.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\UseCases\\RefreshTokenUseCase.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\UseCases\\RefreshTokenUseCase.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\UseCases\\RefreshTokenUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:47:30.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RefreshTokenResponse.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\RefreshTokenResponse.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\DTOs\\RefreshTokenResponse.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\RefreshTokenResponse.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\DTOs\\RefreshTokenResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:51:24.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LogoutUseCase.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\UseCases\\LogoutUseCase.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\UseCases\\LogoutUseCase.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\UseCases\\LogoutUseCase.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\UseCases\\LogoutUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:21:33.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginUseCase.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\UseCases\\LoginUseCase.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\UseCases\\LoginUseCase.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\UseCases\\LoginUseCase.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\UseCases\\LoginUseCase.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:47:00.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IRefreshTokenRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\Repositories\\IRefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\Interfaces\\Repositories\\IRefreshTokenRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\Repositories\\IRefreshTokenRepository.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\Interfaces\\Repositories\\IRefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:20:41.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ILoginAuditRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\Repositories\\ILoginAuditRepository.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\Interfaces\\Repositories\\ILoginAuditRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\Repositories\\ILoginAuditRepository.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\Interfaces\\Repositories\\ILoginAuditRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:20:49.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RefreshTokenRequest.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\RefreshTokenRequest.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\DTOs\\RefreshTokenRequest.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\RefreshTokenRequest.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\DTOs\\RefreshTokenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:21:19.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IAuthAccountRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\Repositories\\IAuthAccountRepository.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\Interfaces\\Repositories\\IAuthAccountRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\Repositories\\IAuthAccountRepository.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\Interfaces\\Repositories\\IAuthAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:20:34.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:00:21.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IOutboxService.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\IOutboxService.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\Interfaces\\IOutboxService.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\IOutboxService.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\Interfaces\\IOutboxService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:21:25.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\Interfaces\\ITokenService.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:59:32.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\Interfaces\\IPasswordHasher.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\IPasswordHasher.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\Interfaces\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T03:52:48.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\DTOs\\LoginResponse.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\LoginResponse.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\DTOs\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:21:15.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\DTOs\\LoginRequest.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:21:12.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Domain\\Entities\\JwtOptions.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\JwtOptions.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Domain\\Entities\\JwtOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T14:09:52.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginAuditLog.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\LoginAuditLog.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Domain\\Entities\\LoginAuditLog.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\LoginAuditLog.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Domain\\Entities\\LoginAuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:36:58.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Domain\\Entities\\RefreshToken.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Domain\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA/wDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:41:39.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AuthUserRole.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\AuthUserRole.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Domain\\Entities\\AuthUserRole.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\AuthUserRole.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Domain\\Entities\\AuthUserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:21:53.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AuthRole.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\AuthRole.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Domain\\Entities\\AuthRole.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\AuthRole.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Domain\\Entities\\AuthRole.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:21:51.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserLoggedInEvent.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Events\\UserLoggedInEvent.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Domain\\Events\\UserLoggedInEvent.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Events\\UserLoggedInEvent.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Domain\\Events\\UserLoggedInEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:00.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PasswordHash.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\ValueObjects\\PasswordHash.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Domain\\ValueObjects\\PasswordHash.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\ValueObjects\\PasswordHash.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Domain\\ValueObjects\\PasswordHash.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:09.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Email.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\ValueObjects\\Email.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Domain\\ValueObjects\\Email.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\ValueObjects\\Email.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Domain\\ValueObjects\\Email.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:22:05.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AccountStatus.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Enums\\AccountStatus.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Domain\\Enums\\AccountStatus.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Enums\\AccountStatus.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Domain\\Enums\\AccountStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:21:57.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\appsettings.json",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.API\\appsettings.json",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\appsettings.json",
+              "RelativeToolTip": "auth-service\\src\\Auth.API\\appsettings.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-09T03:51:22.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "GetAccountUseCase.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\UseCases\\GetAccountUseCase.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\UseCases\\GetAccountUseCase.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\UseCases\\GetAccountUseCase.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\UseCases\\GetAccountUseCase.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:08:06.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Security\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Security\\JwtTokenService.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Security\\JwtTokenService.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Security\\JwtTokenService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:03:10.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Domain\\Entities\\User.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:33:04.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\DTOs\\RegisterRequestDto.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\RegisterRequestDto.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\DTOs\\RegisterRequestDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:52:01.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IGetAccountUseCase.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\IGetAccountUseCase.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\Interfaces\\IGetAccountUseCase.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\IGetAccountUseCase.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\Interfaces\\IGetAccountUseCase.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T13:24:51.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AccountDto.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\AccountDto.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\DTOs\\AccountDto.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\AccountDto.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\DTOs\\AccountDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T13:27:22.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IRegisterUseCase.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\IRegisterUseCase.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\Interfaces\\IRegisterUseCase.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\IRegisterUseCase.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\Interfaces\\IRegisterUseCase.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T13:24:32.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ILoginUseCase.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\ILoginUseCase.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\Interfaces\\ILoginUseCase.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\ILoginUseCase.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\Interfaces\\ILoginUseCase.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T13:24:12.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Middlewares\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.API\\Middlewares\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Middlewares\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.API\\Middlewares\\ServiceCollectionExtensions.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T04:47:16.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ValidationFilter.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Filters\\ValidationFilter.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.API\\Filters\\ValidationFilter.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Filters\\ValidationFilter.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.API\\Filters\\ValidationFilter.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T04:47:20.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Extensions\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.API\\Extensions\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Extensions\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.API\\Extensions\\ExceptionMiddleware.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T04:47:22.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Middlewares\\ApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.API\\Middlewares\\ApplicationBuilderExtensions.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.API\\Middlewares\\ApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.API\\Middlewares\\ApplicationBuilderExtensions.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T04:47:15.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\DTOs\\LoginRequestDto.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\LoginRequestDto.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\DTOs\\LoginRequestDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:52:23.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\DTOs\\LoginResponseDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:52:19.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Infrastructure\\Persistence\\DbInitializer.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Infrastructure\\Persistence\\DbInitializer.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Infrastructure\\Persistence\\DbInitializer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:49:22.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\tests\\Auth.IntegrationTests\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "auth-service\\tests\\Auth.IntegrationTests\\AuthControllerTests.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\tests\\Auth.IntegrationTests\\AuthControllerTests.cs",
+              "RelativeToolTip": "auth-service\\tests\\Auth.IntegrationTests\\AuthControllerTests.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:31:12.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\Interfaces\\IUserRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:48:51.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "UpdateUserProfileDto.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\UpdateUserProfileDto.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\DTOs\\UpdateUserProfileDto.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\UpdateUserProfileDto.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\DTOs\\UpdateUserProfileDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:53:25.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "UserProfileDto.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\UserProfileDto.cs",
+              "RelativeDocumentMoniker": "auth-service\\src\\Auth.Application\\DTOs\\UserProfileDto.cs",
+              "ToolTip": "D:\\WorkSpace\\Document Web\\it-social-platform\\services\\auth-service\\auth-service\\src\\Auth.Application\\DTOs\\UserProfileDto.cs",
+              "RelativeToolTip": "auth-service\\src\\Auth.Application\\DTOs\\UserProfileDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:53:05.979Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
