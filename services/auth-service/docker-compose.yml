@@ -43,7 +43,7 @@ services:
       RabbitMq__Password: "guest"
       RabbitMq__VirtualHost: "/"
       Google__ClientId: "176048927300-vfkm8qprmnt27u36euvur7i8im0jlnot.apps.googleusercontent.com"
-      Google__ClientSecret: "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"
+      Google__ClientSecret: ""
     ports:
       - "5001:8080"
     networks:
